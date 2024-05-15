@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tammy Hartline's E-Portfolio
+---
+
 ## Tammy Hartline's E-Portfolio
 
 ### Experienced Software Engineer, Data Analyst, & STEM Project Management
