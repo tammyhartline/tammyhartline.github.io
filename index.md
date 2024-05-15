@@ -1,7 +1,3 @@
----
-layout: default
-title: Tammy Hartline's E-Portfolio
----
 
 ## Tammy Hartline's E-Portfolio
 
