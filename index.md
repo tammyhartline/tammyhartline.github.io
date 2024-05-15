@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layout/default.html
 title: Tammy Hartline's E-Portfolio
 ---
 
