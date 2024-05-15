@@ -1,4 +1,3 @@
-
 ## Tammy Hartline's E-Portfolio
 
 ### Experienced Software Engineer, Data Analyst, & STEM Project Management
@@ -25,7 +24,7 @@ After college, my fondest moments at work were when our systems encountered issu
 <br/>
 
 Confined at home during the pandemic, I became interested in remote work opportunities and was hired as a QuickBooks Payroll software support agent. Within three months, my coworkers encouraged me to explore roles in engineering or development, recognizing my aptitude for technology.
-
+<br/>
 Over the next six months, I immersed myself in researching technical careers, taking free courses, and utilizing open-source resources from institutions like MIT and Harvard to expand my knowledge. In May 2022, I took a leap of faith and enrolled in the computer science program at SNHU, simultaneously starting as a student worker in the analytics department.
 
 <br/>
