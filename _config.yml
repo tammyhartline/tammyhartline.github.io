@@ -3,9 +3,8 @@ description: Experienced Software Engineer, Data Analyst, & STEM Project Managem
 logo: https://media.licdn.com/dms/image/D5603AQGil6vwByqc7g/profile-displayphoto-shrink_800_800/0/1695260208506?e=1721260800&v=beta&t=txt3Nl4Dbmil-2qhUp0Rv0HeATRYXOunV1W4QPhnjx8
 linkedin_username: tammy-hartline-91981266
 # With GitHub Pages Gem
-remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 sass:
   style: compressed
   load_paths:
     - assets/css
-    - _sass
+    - _includes/bulma-clean-theme/assets/css
