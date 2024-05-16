@@ -7,4 +7,3 @@ sass:
   style: compressed
   load_paths:
     - assets/css
-    - _includes/bulma-clean-theme/assets/css
