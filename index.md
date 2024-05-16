@@ -1,15 +1,5 @@
----
-style: |
-  .masthead .logo img {
-    width: 150px;
-    height: 150px; 
-    border-radius: 50%;
-  }
----
-
 # Tammy Hartline's Computer Science Portfolio 2024
-  <img src="images/me.jpg" alt="Profile Image" class="profile-image">
-
+<img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 150px; height: 150px; border-radius: 50%;">
 ## Table of Contents
 
 - [Self-Introduction and Assessment](#self-introduction-and-assessment)
