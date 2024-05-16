@@ -1,9 +1,0 @@
-// Import the theme's main SCSS file
-@import "{{ site.theme }}";
-
-// Overrides for the logo (profile image)
-.masthead .logo img {
-  width: 150px; // Adjust the value to change the size of the image
-  height: 150px; // Adjust the value to change the size of the image
-  border-radius: 50%; // Change to a different value for a different border-radius
-}
