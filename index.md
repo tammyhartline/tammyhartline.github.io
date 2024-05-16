@@ -1,5 +1,10 @@
 ---
-layout: default
+style: |
+  .masthead .logo img {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+  }
 ---
 
 # Tammy Hartline's Computer Science Portfolio 2024
