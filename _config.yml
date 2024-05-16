@@ -2,6 +2,6 @@ title: Tammy Hartline's Portfolio
 description: Experienced Software Engineer, Data Analyst, & STEM Project Management
 logo: https://media.licdn.com/dms/image/D5603AQGil6vwByqc7g/profile-displayphoto-shrink_800_800/0/1695260208506?e=1721260800&v=beta&t=txt3Nl4Dbmil-2qhUp0Rv0HeATRYXOunV1W4QPhnjx8
 linkedin_username: tammy-hartline-91981266
-remote_theme: pages-themes/modernist@v0.2.0
+remote_theme: startbootstrap/startbootstrap-freelancer
 plugins:
 - jekyll-remote-theme
