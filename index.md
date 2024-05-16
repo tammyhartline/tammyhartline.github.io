@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Tammy Hartline's Computer Science Portfolio 2024
   <img src="images/me.jpg" alt="Profile Image" class="profile-image" border-ratio="50%">
 
