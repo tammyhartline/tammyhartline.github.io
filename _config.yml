@@ -4,3 +4,8 @@ logo: https://media.licdn.com/dms/image/D5603AQGil6vwByqc7g/profile-displayphoto
 linkedin_username: tammy-hartline-91981266
 # With GitHub Pages Gem
 remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
+sass:
+  style: compressed
+  load_paths:
+    - assets/css
+    - _sass
