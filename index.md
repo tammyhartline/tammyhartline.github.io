@@ -1,13 +1,4 @@
----
-layout: page
-title: Welcome to My Page!!
-description: Experienced in Software Engineering, Data Analysis, & STEM Project Management
-logo: https://media.licdn.com/dms/image/D5603AQGil6vwByqc7g/profile-displayphoto-shrink_800_800/0/1695260208506?e=1721260800&v=beta&t=txt3Nl4Dbmil-2qhUp0Rv0HeATRYXOunV1W4QPhnjx8
-linkedin_username: tammy-hartline-91981266
-remote_theme: pages-themes/dinky@v0.2.0
-plugins:
-  - jekyll-remote-theme
----
+# Tammy Hartline's Technical E-Portfolio
 
 <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto;">
 
