@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Home - Intro](/index.md/)
+- [Home](/index.md/)
 - [Professional Self-Introduction and Assessment](/layouts/assessment-and-intro.md/)
 - [Original Artifact Functionality](/layouts/original-artifact-functionality.md/)
 - [Enhancement Plan](/layouts/enhancement-plan.md/)
