@@ -33,6 +33,9 @@ Key enhancements in the databases area:
 
 These database-related enhancements, primarily in the `animal_shelter.py` file, improve the overall reliability, security, and performance of the application, ensuring that the data stored and retrieved is accurate and well-managed.
 
+## To view and interact with the final application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/).
+## To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/).
+
 Here is the `test_animal_shelter.py` file used to ensure proper functionality of the program's features:
 
 ``` python
