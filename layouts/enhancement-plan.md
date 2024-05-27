@@ -1,5 +1,19 @@
+# Tammy Hartline's Computer Science E-Portfolio
 
-# Tammy Hartline's Artifact Enhancement Plan
+## Table of Contents
+
+- [Professional Self-Introduction and Assessment](/layouts/assessment-and-intro.md/)
+- [Enhancement Plan](/layouts/enhancement-plan.md)
+- [Software Engineering/Design](/layouts/software-engineering-and-design.md/)
+- [Algorithms and Data Structures](/layouts/algorithms-and-data-structures.md/)
+- [Databases](/layouts/databases.md/)
+- [Code Review](/layouts/code-review.md/)
+- [Final Enhancements Review Summary](/layouts/final-enhancements-review-summary.md/)
+
+### Follow Me on LinkedIn!
+<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
+
+# Artifact Enhancement Plan
 
 ### Category One: Software Engineering/Design
 •	Artifact: Grazioso Animal Shelter CRM Dashboard
