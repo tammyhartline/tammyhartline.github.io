@@ -38,4 +38,5 @@
 <br/>
   As I reflect on my journey, I am filled with gratitude for the opportunities that have allowed me to explore and cultivate my passion for computer science. The enhancements I have proposed for my ePortfolio will showcase my proficiency in software engineering, algorithm design, database optimization, web development, version control, and deployment processes. These skills align seamlessly with my career aspirations of being able to adapt to any technological role I am offered and contribute to the specialization of AI and Data Analysis in the field of computer science.
 <br/>
-
+## To view and interact with the final application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/).
+## To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/).
