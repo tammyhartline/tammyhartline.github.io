@@ -5,6 +5,7 @@
 •	Artifact: Grazioso Animal Shelter CRM Dashboard
 •	Origin: SNHU Course CS-340 [Original Artifact Repository](https://github.com/tjhartline/SNHU-CS340) – Completed October 2023
 •	Category: Software Engineering/Design
+
 **Enhancement Plan:**
 1.	Convert the existing Jupyter Notebook file (.ipynb) to an HTML formatted file (.html).
 2.	Create a server directory and copy the converted HTML file into it.
@@ -12,6 +13,7 @@
 4.	Push the Git repository to a remote hosting platform (e.g., GitHub).
 5.	Create and configure a server using a platform like Render.
 6.	Deploy the HTML file and the CRM Dashboard to the configured server.
+
 **Skills Demonstrated:**
 •	Proficiency in multiple programming languages (Python, HTML)
 •	File manipulation and conversion
@@ -40,12 +42,14 @@ Git push render master
 •	Artifact: Grazioso Animal Shelter CRM Dashboard
 •	Origin: SNHU Course CS-340 [Original Artifact Repository](https://github.com/tjhartline/SNHU-CS340) – Completed October 2023
 •	Category: Algorithms and Data Structures
+
 **Enhancement Plan:**
 1.	Implement a new data structure (e.g., linked list, tree, or graph) to store and manage the animal shelter data.
 2.	Develop algorithms for efficient searching, sorting, and retrieval of data within the chosen data structure.
 3.	Analyze the time and space complexity of the implemented algorithms.
 4.	Optimize the algorithms for better performance, considering factors like memory usage and execution time.
 5.	Integrate the optimized algorithms and data structures into the CRM Dashboard application.
+   
 **Skills Demonstrated:**
 •	Understanding of data structures and their applications
 •	Algorithm design and implementation
@@ -113,7 +117,8 @@ connection.close()
 3.	Restructure and refine queries based on best practices (e.g., query structure, data filtering, and joins).
 4.	Measure and compare the execution times of optimized queries against the original queries.
 5.	Document and explain the optimization techniques applied and their impact on query performance.
-Skills Demonstrated:
+   
+**Skills Demonstrated:**
 •	Database query optimization techniques
 •	Indexing strategies for performance improvements
 •	Query restructuring and refinement
@@ -135,5 +140,5 @@ result = db.collection.find ({"status": "adoptable", "breed": "Labrador Retrieve
 •	Skills/Outcomes Planned to be Illustrated in the Narratives: Insights into the decision-making process, lessons learned, and continuous improvement.
 •	Skills/Outcomes Planned to be Illustrated in the Professional Self-Assessment: Holistic understanding of software engineering principles, effective problem-solving, and commitment to ongoing improvement.
 
-This document outlines the artifacts selected for the ePortfolio, their enhancement plans, and the skills/outcomes planned to be illustrated. It provides a detailed overview of the project's scope and objectives, demonstrating a well-rounded approach to showcasing proficiency in various aspects of computer science.
+This plan outlines the artifacts selected for my ePortfolio, the enhancements planned, and the skills/outcomes planned to be illustrated. It provides a detailed overview of the project's scope and objectives, demonstrating a well-rounded approach to showcasing proficiency in various aspects of computer science.
 
