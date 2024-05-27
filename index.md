@@ -1,3 +1,18 @@
+{% raw %}
+---
+layout: page
+title: Welcome to My Page!!
+description: Experienced in Software Engineering, Data Analysis, & STEM Project Management
+logo: https://media.licdn.com/dms/image/D5603AQGil6vwByqc7g/profile-displayphoto-shrink_800_800/0/1695260208506?e=1721260800&v=beta&t=txt3Nl4Dbmil-2qhUp0Rv0HeATRYXOunV1W4QPhnjx8
+linkedin_username: tammy-hartline-91981266
+remote_theme: pages-themes/dinky@v0.2.0
+plugins:
+  - jekyll-remote-theme
+---
+{% endraw %}
+
+<link rel="stylesheet" href="{{ '/assets/css/review.css' | relative_url }}">
+
 # Tammy Hartline's Computer Science Portfolio 2024
 <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto;">
 
@@ -102,5 +117,64 @@ As I continue to evolve in my career, I am excited to further explore my passion
   </div>
 </div>
 ---
+
+document.addEventListener("DOMContentLoaded", function () {
+  const submitReviewButton = document.getElementById("submit-review");
+  const reviewsContainer = document.getElementById("reviews-container");
+
+  let reviews = [];
+
+  function displayReviews() {
+    reviewsContainer.innerHTML = "";
+    reviews.forEach((review) => {
+      const reviewElement = document.createElement("div");
+      reviewElement.classList.add("review");
+
+      const starsElement = document.createElement("div");
+      starsElement.classList.add("stars");
+      for (let i = 0; i < review.rating; i++) {
+        const starElement = document.createElement("label");
+        starElement.setAttribute("for", `review-star-${i}`);
+        starElement.textContent = "★";
+        starsElement.appendChild(starElement);
+      }
+      reviewElement.appendChild(starsElement);
+
+      const commentElement = document.createElement("p");
+      commentElement.textContent = review.comment;
+      reviewElement.appendChild(commentElement);
+
+      reviewsContainer.appendChild(reviewElement);
+    });
+  }
+
+  submitReviewButton.addEventListener("click", () => {
+    const ratingElements = document.querySelectorAll('input[name="rating"]');
+    let rating = 0;
+    ratingElements.forEach((element) => {
+      if (element.checked) {
+        rating = parseInt(element.value);
+      }
+    });
+
+    const commentElement = document.getElementById("review-text");
+    const comment = commentElement.value.trim();
+
+    if (rating > 0 && comment.length > 0) {
+      const newReview = {
+        rating: rating,
+        comment: comment,
+      };
+      reviews.push(newReview);
+      displayReviews();
+      commentElement.value = "";
+      ratingElements.forEach((element) => {
+        element.checked = false;
+      });
+    }
+  });
+
+  displayReviews();
+});
 ###### _Developed and Managed By: Tammy Hartline_
 ###### _Copywrite 2024 - All rights reserved._
