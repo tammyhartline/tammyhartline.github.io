@@ -83,19 +83,19 @@ In conclusion, I am grateful for the experiences that have shaped me thus far an
   <div style="background-color: #f8f8f8; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); width: 80%; max-width: 500px;">
     <h3 style="text-align: center;">Rate this Portfolio</h3>
     <div style="display: flex; justify-content: center; margin-bottom: 1rem;">
-      <input type="radio" id="star5" name="rating" value="5" style="display: none;">
+      <input type="radio" id="star5" name="rating" value="5" onclick="handleRatingChange(this);" style="display: none;">
       <label for="star5" title="Awesome" style="font-size: 2rem; color: #ccc; padding: 0 0.5rem; cursor: pointer;">&#9733;</label>
-      <input type="radio" id="star4" name="rating" value="4" style="display: none;">
+      <input type="radio" id="star4" name="rating" value="4" onclick="handleRatingChange(this);" style="display: none;">
       <label for="star4" title="Good" style="font-size: 2rem; color: #ccc; padding: 0 0.5rem; cursor: pointer;">&#9733;</label>
-      <input type="radio" id="star3" name="rating" value="3" style="display: none;">
+      <input type="radio" id="star3" name="rating" value="3" onclick="handleRatingChange(this);" style="display: none;">
       <label for="star3" title="Average" style="font-size: 2rem; color: #ccc; padding: 0 0.5rem; cursor: pointer;">&#9733;</label>
-      <input type="radio" id="star2" name="rating" value="2" style="display: none;">
+      <input type="radio" id="star2" name="rating" value="2" onclick="handleRatingChange(this);" style="display: none;">
       <label for="star2" title="Poor" style="font-size: 2rem; color: #ccc; padding: 0 0.5rem; cursor: pointer;">&#9733;</label>
-      <input type="radio" id="star1" name="rating" value="1" style="display: none;">
+      <input type="radio" id="star1" name="rating" value="1" onclick="handleRatingChange(this);" style="display: none;">
       <label for="star1" title="Terrible" style="font-size: 2rem; color: #ccc; padding: 0 0.5rem; cursor: pointer;">&#9733;</label>
     </div>
     <textarea id="review-text" placeholder="Leave a comment..." style="width: 100%; height: 100px; padding: 0.5rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; resize: vertical;"></textarea>
-    <button id="submit-review" style="display: block; margin: 1rem auto 0; padding: 0.5rem 1rem; font-size: 1rem; background-color: #007bff; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Submit Review</button>
+    <button id="submit-review" onclick="submitReview();" style="display: block; margin: 1rem auto 0; padding: 0.5rem 1rem; font-size: 1rem; background-color: #007bff; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Submit Review</button>
   </div>
   <div style="margin-top: 2rem; width: 80%; max-width: 500px;">
     <h3 style="text-align: center;">Reviews</h3>
@@ -104,73 +104,59 @@ In conclusion, I am grateful for the experiences that have shaped me thus far an
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const submitReviewButton = document.getElementById("submit-review");
-    const reviewsContainer = document.getElementById("reviews-container");
+  let selectedRating = 0;
 
-    let reviews = [];
+  function handleRatingChange(element) {
+    selectedRating = parseInt(element.value);
+    updateStarColors();
+  }
 
-    function displayReviews() {
-      reviewsContainer.innerHTML = "";
-      reviews.forEach((review) => {
-        const reviewElement = document.createElement("div");
-        reviewElement.style.backgroundColor = "#f8f8f8";
-        reviewElement.style.padding = "1rem";
-        reviewElement.style.borderRadius = "8px";
-        reviewElement.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
-        reviewElement.style.marginBottom = "1rem";
-        reviewElement.style.width = "100%";
-
-        const starsElement = document.createElement("div");
-        starsElement.style.display = "flex";
-        starsElement.style.justifyContent = "flex-start";
-        starsElement.style.marginBottom = "0.5rem";
-        for (let i = 0; i < review.rating; i++) {
-          const starElement = document.createElement("label");
-          starElement.setAttribute("for", `review-star-${i}`);
-          starElement.textContent = "★";
-          starElement.style.fontSize = "2rem";
-          starElement.style.color = "#ffdf00";
-          starElement.style.padding = "0 0.5rem";
-          starsElement.appendChild(starElement);
-        }
-        reviewElement.appendChild(starsElement);
-
-        const commentElement = document.createElement("p");
-        commentElement.textContent = review.comment;
-        commentElement.style.margin = "0";
-        reviewElement.appendChild(commentElement);
-
-        reviewsContainer.appendChild(reviewElement);
-      });
-    }
-
-    submitReviewButton.addEventListener("click", () => {
-      const ratingElements = document.querySelectorAll('input[name="rating"]');
-      let rating = 0;
-      ratingElements.forEach((element) => {
-        if (element.checked) {
-          rating = parseInt(element.value);
-        }
-      });
-
-      const commentElement = document.getElementById("review-text");
-      const comment = commentElement.value.trim();
-
-      if (rating > 0 && comment.length > 0) {
-        const newReview = {
-          rating: rating,
-          comment: comment,
-        };
-        reviews.push(newReview);
-        displayReviews();
-        commentElement.value = "";
-        ratingElements.forEach((element) => {
-          element.checked = false;
-        });
-      }
+  function updateStarColors() {
+    const stars = document.querySelectorAll('.star-label');
+    stars.forEach((star, index) => {
+      star.style.color = index < selectedRating ? '#ffdf00' : '#ccc';
     });
+  }
 
-    displayReviews();
-  });
+  function submitReview() {
+    const commentElement = document.getElementById("review-text");
+    const comment = commentElement.value.trim();
+
+    if (selectedRating > 0 && comment.length > 0) {
+      const reviewContainer = document.getElementById("reviews-container");
+      const reviewElement = document.createElement("div");
+      reviewElement.style.backgroundColor = "#f8f8f8";
+      reviewElement.style.padding = "1rem";
+      reviewElement.style.borderRadius = "8px";
+      reviewElement.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
+      reviewElement.style.marginBottom = "1rem";
+      reviewElement.style.width = "100%";
+
+      const starsElement = document.createElement("div");
+      starsElement.style.display = "flex";
+      starsElement.style.justifyContent = "flex-start";
+      starsElement.style.marginBottom = "0.5rem";
+      for (let i = 0; i < selectedRating; i++) {
+        const starElement = document.createElement("label");
+        starElement.className = "star-label";
+        starElement.style.fontSize = "2rem";
+        starElement.style.color = "#ffdf00";
+        starElement.style.marginRight = "0.5rem";
+        starElement.textContent = "★";
+        starsElement.appendChild(starElement);
+      }
+      reviewElement.appendChild(starsElement);
+
+      const commentElement = document.createElement("p");
+      commentElement.textContent = comment;
+      commentElement.style.margin = "0";
+      reviewElement.appendChild(commentElement);
+
+      reviewContainer.appendChild(reviewElement);
+
+      document.getElementById("review-text").value = "";
+      selectedRating = 0;
+      updateStarColors();
+    }
+  }
 </script>
