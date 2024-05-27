@@ -11,7 +11,7 @@
 - [Final Project Narrative Summary](#final-project-narrative-summary)
 
 ### Find Me on LinkedIn!
-- [![LinkedIn Logo](https://pngimg.com/uploads/linkedIn/linkedIn_PNG7.png =100x100)](https://www.linkedin.com/in/tammy-hartline-91981266/)
+- [![LinkedIn Logo](https://pngimg.com/uploads/linkedIn/linkedIn_PNG7.png=100x100)](https://www.linkedin.com/in/tammy-hartline-91981266/)
 
 ### Professional Self-Introduction and Assessment
 
