@@ -10,6 +10,9 @@
 - [Code Review](#code-review)
 - [Final Project Narrative Summary](#final-project-narrative-summary)
 
+### Find Me on LinkedIn!
+- [![LinkedIn Logo](https://media.licdn.com/dms/image/C4E03AQGjDFlt0wN2nQ/profile-displayphoto-shrink_800_800/0/1695260208506?e=1721260800&v=beta&t=hbGvLeEHJBcn2Ya23jgbFRzw2cv-dTdTCs4f_5anYXs)](https://www.linkedin.com/in/tammy-hartline-91981266/)
+
 ### Professional Self-Introduction and Assessment
 
   My journey into the field of computer science began with a fascination for technology that sparked when the internet was launched to the public. Although computers at that time lacked the advanced features and user-friendliness of today, the potential for growth and innovation captivated me. During my freshman year of college in 2005, I enrolled in a few computer science courses, only to find myself as the sole female student, facing discouragement from pursuing this field. Consequently, I chose to pursue a degree in Business Administration with a concentration in Accounting.
@@ -478,6 +481,9 @@ The app.py file indirectly demonstrates proficiency in databases through the int
 
 The successful deployment of the application to a Render server showcases the ability to integrate the application's database-related components into a production-ready environment, ensuring the reliable and secure handling of data in a live setting.
 
+###### To view the result of all enhancements made to the program, and to interact with application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/).
+###### To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/).
+
 **_Proof of Program Optimization:_**
 
 The enhancements made to the application have resulted in a significant improvement in the build and deployment time on the Render platform. Initially, the deployment process was taking approximately 50 minutes on May 21, 2024. However, after implementing various optimizations, the build and deployment time has now been reduced to approximately 4 minutes on May 25, 2024.
@@ -488,8 +494,7 @@ Deployment to a Live Environment: Another key optimization was the creation of a
 
 The successful deployment to the Render server demonstrates the ability to transition the application from a local development environment to a production-ready platform. This enhancement improves the overall accessibility and usability of the application, making it more user-friendly and suitable for real-world use cases.
 
-In conclusion, the enhancements made to the animal\_shelter.py and app.py files of the capstone project showcase a comprehensive proficiency in software engineering and design, algorithms and data structures, and databases. These improvements, along with the successful deployment to a live Render server, have optimized the overall program, ensuring its reliability, security, and efficiency for the end-users. The **significant** reduction in build and deployment time and the transition to a production-ready platform are testaments to the effectiveness of these comprehensive enhancements. To view the result of all enhancements made to the program, and to interact with application, please visit [https://tammyhartlinecapstone.onrender.com](https://tammyhartlinecapstone.onrender.com/)
-
+In conclusion, the enhancements made to the animal\_shelter.py and app.py files of the capstone project showcase a comprehensive proficiency in software engineering and design, algorithms and data structures, and databases. These improvements, along with the successful deployment to a live Render server, have optimized the overall program, ensuring its reliability, security, and efficiency for the end-users. The **significant** reduction in build and deployment time and the transition to a production-ready platform are testaments to the effectiveness of these comprehensive enhancements. 
 
 <img src="/proofop3.png">
 
