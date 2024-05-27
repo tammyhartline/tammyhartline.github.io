@@ -33,6 +33,9 @@ Key enhancements in the algorithms and data structures area:
 
 These enhancements in algorithms and data structures, across both the `animal_shelter.py` and `app.py` files, improve the efficiency, scalability, security, and overall user experience of the application.
 
+## To view and interact with the final application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/).
+## To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/).
+
 Here is the enhanced `Python` code for the `app.py` file:
 ``` python
 from dash import Dash, html, dcc, dash_table  # Importing necessary Dash components
