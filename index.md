@@ -77,10 +77,31 @@ As I continue to evolve in my career, I am excited to further explore my passion
 
 In conclusion, I am grateful for the experiences that have shaped me thus far and look forward to the journey ahead. With a proactive mindset, a passion for learning, and a commitment to excellence, I am confident in my ability to achieve my goals and make a difference in the world of technology.
 
----
-###### © 2024 Tammy Hartline. All rights reserved.
----
+## Leave a Review
 
+<div style="display: flex; flex-direction: column; align-items: center; margin-top: 2rem;">
+  <div style="background-color: #f8f8f8; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); width: 80%; max-width: 500px;">
+    <h3 style="text-align: center;">Rate this Portfolio</h3>
+    <div style="display: flex; justify-content: center; margin-bottom: 1rem;">
+      <input type="radio" id="star5" name="rating" value="5" style="display: none;">
+      <label for="star5" title="Awesome" style="font-size: 2rem; color: #ccc; padding: 0 0.5rem; cursor: pointer;">&#9733;</label>
+      <input type="radio" id="star4" name="rating" value="4" style="display: none;">
+      <label for="star4" title="Good" style="font-size: 2rem; color: #ccc; padding: 0 0.5rem; cursor: pointer;">&#9733;</label>
+      <input type="radio" id="star3" name="rating" value="3" style="display: none;">
+      <label for="star3" title="Average" style="font-size: 2rem; color: #ccc; padding: 0 0.5rem; cursor: pointer;">&#9733;</label>
+      <input type="radio" id="star2" name="rating" value="2" style="display: none;">
+      <label for="star2" title="Poor" style="font-size: 2rem; color: #ccc; padding: 0 0.5rem; cursor: pointer;">&#9733;</label>
+      <input type="radio" id="star1" name="rating" value="1" style="display: none;">
+      <label for="star1" title="Terrible" style="font-size: 2rem; color: #ccc; padding: 0 0.5rem; cursor: pointer;">&#9733;</label>
+    </div>
+    <textarea id="review-text" placeholder="Leave a comment..." style="width: 100%; height: 100px; padding: 0.5rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; resize: vertical;"></textarea>
+    <button id="submit-review" style="display: block; margin: 1rem auto 0; padding: 0.5rem 1rem; font-size: 1rem; background-color: #007bff; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Submit Review</button>
+  </div>
+  <div style="margin-top: 2rem; width: 80%; max-width: 500px;">
+    <h3 style="text-align: center;">Reviews</h3>
+    <div id="reviews-container"></div>
+  </div>
+</div>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const submitReviewButton = document.getElementById("submit-review");
@@ -146,5 +167,9 @@ In conclusion, I am grateful for the experiences that have shaped me thus far an
     });
 
     displayReviews();
+
+---
+###### © 2024 Tammy Hartline. All rights reserved.
+---
   });
 </script>
