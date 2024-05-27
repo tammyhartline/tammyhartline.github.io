@@ -99,9 +99,10 @@ In conclusion, I am grateful for the experiences that have shaped me thus far an
   </div>
   <div style="margin-top: 2rem; width: 80%; max-width: 500px;">
     <h3 style="text-align: center;">Reviews</h3>
-    <div id="reviews-container"></div>
+    <div id="reviews-container" style="display: flex; flex-direction: column; align-items: center;"></div>
   </div>
 </div>
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const submitReviewButton = document.getElementById("submit-review");
@@ -118,6 +119,7 @@ In conclusion, I am grateful for the experiences that have shaped me thus far an
         reviewElement.style.borderRadius = "8px";
         reviewElement.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
         reviewElement.style.marginBottom = "1rem";
+        reviewElement.style.width = "100%";
 
         const starsElement = document.createElement("div");
         starsElement.style.display = "flex";
@@ -127,6 +129,9 @@ In conclusion, I am grateful for the experiences that have shaped me thus far an
           const starElement = document.createElement("label");
           starElement.setAttribute("for", `review-star-${i}`);
           starElement.textContent = "★";
+          starElement.style.fontSize = "2rem";
+          starElement.style.color = "#ffdf00";
+          starElement.style.padding = "0 0.5rem";
           starsElement.appendChild(starElement);
         }
         reviewElement.appendChild(starsElement);
@@ -167,9 +172,5 @@ In conclusion, I am grateful for the experiences that have shaped me thus far an
     });
 
     displayReviews();
-
----
-###### © 2024 Tammy Hartline. All rights reserved.
----
   });
 </script>
