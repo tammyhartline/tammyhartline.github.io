@@ -80,3 +80,71 @@ In conclusion, I am grateful for the experiences that have shaped me thus far an
 ---
 ###### © 2024 Tammy Hartline. All rights reserved.
 ---
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const submitReviewButton = document.getElementById("submit-review");
+    const reviewsContainer = document.getElementById("reviews-container");
+
+    let reviews = [];
+
+    function displayReviews() {
+      reviewsContainer.innerHTML = "";
+      reviews.forEach((review) => {
+        const reviewElement = document.createElement("div");
+        reviewElement.style.backgroundColor = "#f8f8f8";
+        reviewElement.style.padding = "1rem";
+        reviewElement.style.borderRadius = "8px";
+        reviewElement.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
+        reviewElement.style.marginBottom = "1rem";
+
+        const starsElement = document.createElement("div");
+        starsElement.style.display = "flex";
+        starsElement.style.justifyContent = "flex-start";
+        starsElement.style.marginBottom = "0.5rem";
+        for (let i = 0; i < review.rating; i++) {
+          const starElement = document.createElement("label");
+          starElement.setAttribute("for", `review-star-${i}`);
+          starElement.textContent = "★";
+          starsElement.appendChild(starElement);
+        }
+        reviewElement.appendChild(starsElement);
+
+        const commentElement = document.createElement("p");
+        commentElement.textContent = review.comment;
+        commentElement.style.margin = "0";
+        reviewElement.appendChild(commentElement);
+
+        reviewsContainer.appendChild(reviewElement);
+      });
+    }
+
+    submitReviewButton.addEventListener("click", () => {
+      const ratingElements = document.querySelectorAll('input[name="rating"]');
+      let rating = 0;
+      ratingElements.forEach((element) => {
+        if (element.checked) {
+          rating = parseInt(element.value);
+        }
+      });
+
+      const commentElement = document.getElementById("review-text");
+      const comment = commentElement.value.trim();
+
+      if (rating > 0 && comment.length > 0) {
+        const newReview = {
+          rating: rating,
+          comment: comment,
+        };
+        reviews.push(newReview);
+        displayReviews();
+        commentElement.value = "";
+        ratingElements.forEach((element) => {
+          element.checked = false;
+        });
+      }
+    });
+
+    displayReviews();
+  });
+</script>
