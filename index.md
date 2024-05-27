@@ -1,4 +1,3 @@
-{% raw %}
 ---
 layout: page
 title: Welcome to My Page!!
@@ -9,172 +8,148 @@ remote_theme: pages-themes/dinky@v0.2.0
 plugins:
   - jekyll-remote-theme
 ---
-{% endraw %}
 
-<link rel="stylesheet" href="{{ '/assets/css/review.css' | relative_url }}">
-
-# Tammy Hartline's Computer Science Portfolio 2024
 <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto;">
 
 ## Table of Contents
 
-- [Home - Intro](/index.md/)
-- [Professional Self-Introduction and Assessment](/layouts/assessment-and-intro.md/)
-- [Original Artifact Functionality](/layouts/original-artifact-functionality.md/)
-- [Enhancement Plan](/layouts/enhancement-plan.md/)
-- [Software Engineering/Design](/layouts/software-engineering-and-design.md/)
-- [Algorithms and Data Structures](/layouts/algorithms-and-data-structures.md/)
-- [Databases](/layouts/databases.md/)
-- [Code Review](/layouts/code-review.md/)
-- [Final Enhancements Review Summary](/layouts/final-enhancements-review-summary.md/)
+- [Professional Self-Introduction and Assessment](#professional-self-introduction-and-assessment)
+- [Software Engineering and Design](#software-engineering-and-design)
+- [Algorithms and Data Structures](#algorithms-and-data-structures)
+- [Databases](#databases)
+- [Code Review](#code-review)
+- [Final Project Narrative Summary](#final-project-narrative-summary)
 
 ### Follow Me on LinkedIn!
 <a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
 
-# Home
+<!-- Professional Self-Introduction and Assessment -->
+<div class="tab-content" id="professional-self-introduction-and-assessment">
+  My journey into the field of computer science began with a fascination for technology that sparked when the internet was launched to the public. Although computers at that time lacked the advanced features and user-friendliness of today, the potential for growth and innovation captivated me. During my freshman year of college in 2005, I enrolled in a few computer science courses, only to find myself as the sole female student, facing discouragement from pursuing this field. Consequently, I chose to pursue a degree in Business Administration with a concentration in Accounting.
 
-This site was built using Github pages and jekyll themes. The purpose of this page is to serve as an e-portfolio, that will demonstrate my competence in the following computer science related specialties: 
+  After college, my fondest moments at work were when our systems encountered issues, allowing me to explore the command prompt and restore the network to full operation. Following a diagnosis of narcolepsy with cataplexy, I shifted my focus to being a stay-at-home mother to my three daughters and working seasonally as a tax specialist. Little did I know that the COVID-19 pandemic would reignite my passion for technology.
 
-- **Sofware Engineering and Design**
-- **Algorithms and Data-Structures**
-- **Databases**
+  Confined at home during the pandemic, I became interested in remote work opportunities and was hired as a QuickBooks Payroll software support agent. Within three months, my coworkers encouraged me to explore roles in engineering or development, recognizing my aptitude for technology.
 
+  Over the next six months, I immersed myself in researching technical careers, taking free courses, and utilizing open-source resources from institutions like MIT and Harvard to expand my knowledge. In May 2022, I took a leap of faith and enrolled in the computer science program at SNHU, simultaneously starting as a student worker in the analytics department.
 
-## Professional Performance Self-Evaluation:
+  For nearly two years, I balanced my studies with remote work at SNHU, only resigning in November 2023 after accepting an offer as a project lead at Scale AI. During my academic journey, my concentration shifted from STEM Project Management to Software Engineering and finally to Data Analysis, reflecting the breadth of specializations available within computer science.
 
-### Accomplishments:  ✍(◔◡◔)
-1. __Academic Excellence:__ Maintained a stellar academic record with a 4.0 GPA average since the beginning of my academic journey, while also gaining over 120 credits in just 22 months.
-2. __Recognition of Excellence:__ Consistently made the President's List every semester and the Honor Roll every term, showcasing dedication and excellence in academic pursuits.
-- [SNHU Honor Roll 23EW2](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW2/123445486)
-- [SNHU Fall 23' President's List](https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/123332565)
-- [SNHU Honor Roll 23EW1](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW1/119530985)
-- [SNHU Summer 23' President's List](https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/115030907)
-- [SNHU Honor Roll 23EW6](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW6/115063954)
-- [SNHU Honor Roll 23EW5](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW5/112828270)
-- [SNHU Winter 23' President's List](https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/109621343)
-- [SNHU Honor Roll 23EW4](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW4/108177040)
-- [SNHU Honor Roll 23EW3](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW3/103592257)
-- [SNHU Honor Roll 22EW2](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/100031425)
-- [SNHU Fall 22' President's List](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-SNHU-President-s-List/99723699)
-- [SNHU Honor Roll 22EW1](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/94781765)
-- [SNHU Honor Roll 22EW6](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/90697312)
-- [SNHU Summer 22' President's List](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-SNHU-President-s-List/90639512)
-- [SNHU Honor Roll 22EW5](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/85852018)
-3. __Prestigious Internship:__ Successfully completed a prestigious internship at Raytheon (RTX) Girls Who Code (GWC) Fall Leadership Academy, gaining valuable hands-on experience in software engineering. (Completed December 10, 2023)
-4. __Leadership Recognition:__ Nominated to present the Spring 2024 commencement speech and of the 700+ student employees at SNHU, I was one of the 23 total nominated for the 2023 Student Employee of the Year after six short months of employment, demonstrating leadership and excellence in professional settings.
-5. __Honor Society Inductions:__ Inducted into prestigious honor societies, Alpha Sigma Lambda and National Society of Leadership and Success, for academic and leadership achievements.
-6. __Mastery of Computer Science and Data Analysis Concepts:__ Mastered core computer science and data analysis concepts, continuously applying them in academic coursework and real-world applications, showcasing a strong understanding of the subject matter.
+  Throughout this experience, I have cultivated a profound love for learning. I constantly seek to expand my knowledge, never feeling proficient enough or bored with mastering a specific skill. This insatiable curiosity has led me to learn and code in a diverse array of languages and technologies, including HTML, CSS, M+, DAX, SQL, NoSQL, Java, Python, JavaScript, Spring Boot, JUnit, Ruby, PHP, C, C++, C#, XML, MATLAB, Kotlin, Flutter, Dart, Android Studio, .NET, Bash, GraphQL, Salesforce, Power BI, Tableau, Sharepoint, GIT, and TypeScript.
 
-## Areas for Improvement: 👩‍🏫
-1. __Communication Skills:__ Enhancing articulation of ideas and solutions when presenting in a professional setting to more effectively communicate thoughts and strategies.
-2. __Task Management:__ Improving task segmentation to prioritize and manage responsibilities efficiently.
-3. __Software Design and Engineering:__ Further developing skills and confidence in software design and engineering to broaden my ability to offer solutions.
-4. __Problem-Solving Approach:__ Learning to take breaks and walk away from challenges to prevent burnout and improve problem-solving strategies.
-5. __Work-Life Balance:__ Balancing work and personal life for overall well-being and sustainability.
-6. __Computational Thinking:__ Strengthening computational thinking skills for enhanced problem-solving abilities.
+  While I may not be an expert in any single language, I am proficient in nearly all of them. My skills encompass manually creating 3D and 4D images, developing dynamic and interactive web or mobile applications, building websites, performing data analysis, creating interactive analytic dashboards, and more.
 
-## Future Growth Plan: 📈
-1. __Professional Development:__ Continuously seek opportunities for professional development and growth in the field of computer science, including pursuing advanced courses, certifications, and specialized training.
-2. __Networking and Mentorship:__ Actively engage in networking and mentorship opportunities to expand industry connections and gain valuable insights from experienced professionals.
-3. __Career Advancement:__ Set clear goals and objectives for career advancement, including exploring potential career paths in data analytics, software engineering, or other related fields.
-4. __Embrace Challenges:__ Embrace challenges and opportunities for learning and growth, remaining open to new experiences and skill development.
-5. __Feedback and Improvement:__ Seek feedback from peers, mentors, and supervisors to identify areas of improvement and implement strategies for continuous growth and development.
-6. __Stay Updated:__ Stay updated on industry trends and advancements in technology to remain competitive and relevant in the ever-evolving field of computer science.
-7. __Maintain Balance:__ Maintain a healthy work-life balance to sustain long-term success and well-being.
-
-### Summary: 🗒
-I am incredibly proud of the accomplishments I have achieved thus far in my academic and professional journey. Maintaining a 4.0 GPA, completing over 120 credits in 22 months, while consistently making the President's List and Honor Roll, and gaining recognition for my academic and professional success, demonstrate my dedication to excellence. My participation in the Raytheon (RTX) 2023 Girls Who Code (GWC) Fall Leadership Academy Software Engineering Internship and being nominated for student employee of the year showcase my commitment to gaining real-world experience and excelling in my field.
-
-Moving forward, I recognize several areas for improvement that will contribute to my continued growth and success. Improving my articulation of ideas and solutions in professional settings, segmenting tasks more effectively, enhancing my software design and engineering skills, and developing better computational thinking skills are key areas of focus. Additionally, finding a balance between work and life, exploring specialties outside of my comfort zone, and learning to step away from a problem to gain a fresh perspective are all essential for my personal and professional development.
-
-As I continue to evolve in my career, I am excited to further explore my passion for artificial intelligence, the creativity and freedom software engineering offers, data analytics, and leadership. My expertise in these areas, coupled with my drive for continuous learning and improvement, will guide me toward new opportunities and challenges. I am eager to embrace change, broaden my skill set, and make a meaningful impact in the field of Computer Science, hopefully inspiring the next generation to take more interest in STEM, particularly by bringing this field to the attention of females, who are severely outnumbered by their male counterparts in this profession.
-
-###### In conclusion, I am grateful for the experiences that have shaped me thus far and look forward to the journey ahead. With a proactive mindset, a passion for learning, and a commitment to excellence, I am confident in my ability to achieve my goals and make a difference in the world of technology.
----
-## Leave a Review
-
-<div class="review-container">
-  <div class="review-form">
-    <h3>Rate this Portfolio</h3>
-    <div class="stars">
-      <input type="radio" id="star5" name="rating" value="5" />
-      <label for="star5" title="Awesome">5 stars</label>
-      <input type="radio" id="star4" name="rating" value="4" />
-      <label for="star4" title="Good">4 stars</label>
-      <input type="radio" id="star3" name="rating" value="3" />
-      <label for="star3" title="Average">3 stars</label>
-      <input type="radio" id="star2" name="rating" value="2" />
-      <label for="star2" title="Poor">2 stars</label>
-      <input type="radio" id="star1" name="rating" value="1" />
-      <label for="star1" title="Terrible">1 star</label>
-    </div>
-    <textarea id="review-text" placeholder="Leave a comment..."></textarea>
-    <button id="submit-review">Submit Review</button>
-  </div>
-  <div class="review-display">
-    <h3>Reviews</h3>
-    <div id="reviews-container"></div>
-  </div>
+  As I reflect on my journey, I am filled with gratitude for the opportunities that have allowed me to explore and cultivate my passion for computer science. The enhancements I have proposed for my ePortfolio will showcase my proficiency in software engineering, algorithm design, database optimization, web development, version control, and deployment processes. These skills align seamlessly with my career aspirations of being able to adapt to any technological role I am offered and contribute to the specialization of AI and Data Analysis in the field of computer science.
 </div>
----
 
-document.addEventListener("DOMContentLoaded", function () {
-  const submitReviewButton = document.getElementById("submit-review");
-  const reviewsContainer = document.getElementById("reviews-container");
+<!-- Software Engineering and Design -->
+<div class="tab-content" id="software-engineering-and-design">
+  The enhancements made to the `animal_shelter.py` and `app.py` files collectively demonstrate a strong proficiency in software engineering and design principles.
 
-  let reviews = [];
+  Key enhancements in the software engineering and design area:
 
-  function displayReviews() {
-    reviewsContainer.innerHTML = "";
-    reviews.forEach((review) => {
-      const reviewElement = document.createElement("div");
-      reviewElement.classList.add("review");
+  - **Modular and Maintainable Design**: The `animal_shelter.py` file follows a modular and object-oriented design, with the well-defined `AnimalShelter` class encapsulating the database operations. This promotes code reusability and maintainability, as the database-related functionality is centralized and can be easily integrated into other parts of the application.
 
-      const starsElement = document.createElement("div");
-      starsElement.classList.add("stars");
-      for (let i = 0; i < review.rating; i++) {
-        const starElement = document.createElement("label");
-        starElement.setAttribute("for", `review-star-${i}`);
-        starElement.textContent = "★";
-        starsElement.appendChild(starElement);
-      }
-      reviewElement.appendChild(starsElement);
+  - **Performance Optimization**: The addition of the `_create_index()` method in the `animal_shelter.py` file showcases an understanding of performance optimization techniques in database management, improving the efficiency of data retrieval operations.
 
-      const commentElement = document.createElement("p");
-      commentElement.textContent = review.comment;
-      reviewElement.appendChild(commentElement);
+  - **Readability and Documentation**: Both the `animal_shelter.py` and `app.py` files include detailed comments and documentation, following best practices for code readability and maintainability. The inclusion of changelogs and version information demonstrates a commitment to version control and tracking changes over time.
 
-      reviewsContainer.appendChild(reviewElement);
-    });
-  }
+  - **Security Measures**: The `read()` method in the `animal_shelter.py` file includes input validation and sanitization, demonstrating attention to security and defensive programming practices, particularly in the context of preventing SQL injection attacks.
 
-  submitReviewButton.addEventListener("click", () => {
-    const ratingElements = document.querySelectorAll('input[name="rating"]');
-    let rating = 0;
-    ratingElements.forEach((element) => {
-      if (element.checked) {
-        rating = parseInt(element.value);
-      }
-    });
+  - **Iterative Approach**: The enhancements made to the program, such as the migration from MongoDB to SQLite3, the optimization of SQL queries, and the addition and removal of various CRUD methods in the `animal_shelter.py` file, showcase an iterative approach to software development and a willingness to refactor and improve the codebase as needed.
 
-    const commentElement = document.getElementById("review-text");
-    const comment = commentElement.value.trim();
+  - **Structured and Interactive User Interface**: The `app.py` file demonstrates proficiency in software engineering and design by creating a user-friendly and interactive interface using the Dash framework. The organized layout, use of HTML components, and integration of data visualization techniques enhance the overall user experience.
 
-    if (rating > 0 && comment.length > 0) {
-      const newReview = {
-        rating: rating,
-        comment: comment,
-      };
-      reviews.push(newReview);
-      displayReviews();
-      commentElement.value = "";
-      ratingElements.forEach((element) => {
-        element.checked = false;
-      });
-    }
-  });
+  - **Deployment to a Live Environment**: The successful deployment of the application to a Render server showcases the ability to transition the project from a local development environment to a production-ready platform, improving the overall accessibility and usability of the application.
 
-  displayReviews();
-});
-###### _Developed and Managed By: Tammy Hartline_
-###### _Copywrite 2024 - All rights reserved._
+  These software engineering and design enhancements, across both the `animal_shelter.py` and `app.py` files, improve the overall quality, maintainability, security, and user experience of the application.
+</div>
+
+<!-- Algorithms and Data Structures -->
+<div class="tab-content" id="algorithms-and-data-structures">
+  The enhancements made to the `animal_shelter.py` and `app.py` files collectively demonstrate a strong proficiency in algorithms and data structures.
+
+  Key enhancements in the algorithms and data structures area:
+
+  - **Database Utilization**: The `animal_shelter.py` file utilizes the SQLite3 database, which is an efficient and lightweight embedded database solution. This choice of database technology aligns well with the application's requirements, as it only needs to handle a single CSV file.
+
+  - **Table Creation and Indexing**: The `_create_table()` and `_create_index()` methods in the `animal_shelter.py` file efficiently create a table and indexes in the SQLite3 database, ensuring that the data is properly stored and organized, and improving the efficiency of data retrieval operations.
+
+  - **Data Manipulation and Processing**: The use of SQL queries and the `pandas` library in both the `animal_shelter.py` and `app.py` files showcases an understanding of data manipulation and processing techniques. The `read()` method in the `animal_shelter.py` file abstracts the database queries, allowing for more flexible and modular implementation of the application's data retrieval requirements.
+
+  - **Input Validation and Sanitization**: The `read()` method in the `animal_shelter.py` file includes input validation and sanitization, demonstrating attention to security and defensive programming practices, effectively preventing SQL injection attacks.
+
+  - **Dynamic Data Filtering and Visualization**: The `app.py` file demonstrates proficiency in algorithms and data structures through the efficient manipulation and processing of data. The `update_dashboard` callback function filters the data based on user interactions, groups the data, and creates interactive visualizations using Plotly Express, showcasing skills in data processing and visualization algorithms.
+
+  - **Deployment to a Live Environment**: The successful deployment of the application to a Render server showcases the ability to integrate the application's algorithms and data structures into a production-ready environment, ensuring the effectiveness and reliability of the data processing and visualization components.
+
+  These enhancements in algorithms and data structures, across both the `animal_shelter.py` and `app.py` files, improve the efficiency, scalability, security, and overall user experience of the application.
+</div>
+
+<!-- Databases -->
+<div class="tab-content" id="databases">
+  The enhancements made to the `animal_shelter.py` file demonstrate a strong proficiency in database management and design.
+
+  Key enhancements in the databases area:
+
+  - **Database Migration**: The decision to switch from MongoDB to SQLite3 based on the requirements of the application showcases the ability to make informed technology choices and optimize the codebase accordingly. The use of SQLite3 is a more efficient and appropriate choice for the animal shelter application, which only requires a single CSV file.
+
+  - **Table and Index Creation**: The creation of database tables and indexes in the `_create_table()` and `_create_index()` methods respectively exhibits a deep understanding of database design and optimization. These enhancements improve the performance and efficiency of data retrieval operations.
+
+  - **CRUD Operations**: The CRUD (Create, Read, Update, Delete) operations, including the `read()` method, demonstrate the ability to correctly interact with the database and maintain data integrity.
+
+  - **Input Validation and Sanitization**: The implementation of input validation and sanitization in the `read()` method in the `animal_shelter.py` file highlights the awareness of SQL injection attacks and the importance of secure coding practices when working with databases.
+
+  - **Database Connectivity and Querying**: The `app.py` file indirectly demonstrates proficiency in databases through the interaction with the `AnimalShelter` class, which handles the database operations. The creation of the `AnimalShelter` instance and the use of its `read()` method showcases knowledge of querying databases and fetching data efficiently.
+
+  - **Deployment to a Live Environment**: The successful deployment of the application to a Render server showcases the ability to integrate the application's database-related components into a production-ready environment, ensuring the reliable and secure handling of data in a live setting.
+
+  These database-related enhancements, primarily in the `animal_shelter.py` file, improve the overall reliability, security, and performance of the application, ensuring that the data stored and retrieved is accurate and well-managed.
+</div>
+
+<!-- Code Review -->
+<div class="tab-content" id="code-review">
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/k3gyUmSv-Wk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!-- Final Project Narrative Summary -->
+<div class="tab-content" id="final-project-narrative-summary">
+  The enhancements made to the `animal_shelter.py` and `app.py` files of the capstone project demonstrate a comprehensive proficiency across the key areas of software engineering and design, algorithms and data structures, and databases. These improvements not only optimized the overall program but also showcased the depth of understanding and skills acquired throughout the Computer Science program.
+
+  **_Software Engineering and Design:_**
+
+  The codebase follows a modular and object-oriented design, with the well-defined `AnimalShelter` class in the `animal_shelter.py` file encapsulating the database operations. This promotes code reusability and maintainability, as the database-related functionality is centralized and can be easily integrated into other parts of the application. The addition of the `_create_index()` method showcases an understanding of performance optimization techniques in database management, improving the efficiency of data retrieval operations.
+
+  Both the `animal_shelter.py` and `app.py` files include detailed comments and documentation, following best practices for code readability and maintainability. The inclusion of changelogs and version information demonstrates a commitment to version control and tracking changes over time, which is crucial for managing complex software projects.
+
+  The `read()` method in the `animal_shelter.py` file includes input validation and sanitization, demonstrating attention to security and defensive programming practices, particularly in the context of preventing SQL injection attacks. This enhancement improves the overall security of the application and reduces the risk of malicious attacks.
+
+  The iterative approach to software development is evident in the enhancements, such as the migration from MongoDB to SQLite3, the optimization of SQL queries, and the addition and removal of various CRUD methods in the `animal_shelter.py` file. This willingness to refactor and improve the codebase showcases the ability to adapt to changing requirements and continuously enhance the application.
+
+  In the `app.py` file, the use of the Dash framework demonstrates proficiency in creating a user-friendly and interactive interface. The organized layout, use of HTML components, and integration of data visualization techniques enhance the overall user experience, making the application more engaging and informative for the end-users.
+
+  The successful deployment of the application to a Render server showcases the ability to transition the project from a local development environment to a production-ready platform, improving the overall accessibility and usability of the application.
+
+  **_Algorithms and Data Structures:_**
+
+  The `animal_shelter.py` file utilizes the SQLite3 database, which is an efficient and lightweight embedded database solution. This choice of database technology aligns well with the application's requirements, as it only needs to handle a single CSV file. The `_create_table()` and `_create_index()` methods efficiently create a table and indexes in the SQLite3 database, ensuring that the data is properly stored and organized, and improving the efficiency of data retrieval operations.
+
+  The use of SQL queries and the `pandas` library in both the `animal_shelter.py` and `app.py` files showcases an understanding of data manipulation and processing techniques. The `read()` method in the `animal_shelter.py` file abstracts the database queries, allowing for more flexible and modular implementation of the application's data retrieval requirements.
+
+  The `read()` method's inclusion of input validation and sanitization in the `animal_shelter.py` file demonstrates attention to security and defensive programming practices, effectively preventing SQL injection attacks.
+
+  In the `app.py` file, the `update_dashboard` callback function filters the data based on user interactions, groups the data, and creates interactive visualizations using Plotly Express, showcasing skills in data processing and visualization algorithms. These enhancements improve the user experience by providing dynamic and informative data representations.
+
+  The successful deployment of the application to a Render server showcases the ability to integrate the application's algorithms and data structures into a production-ready environment, ensuring the effectiveness and reliability of the data processing and visualization components.
+
+  **_Databases:_**
+
+  The `animal_shelter.py` file exhibits a deep understanding of database design and management. The decision to switch from MongoDB to SQLite3 based on the requirements of the application showcases the ability to make informed technology choices and optimize the codebase accordingly. The use of SQLite3 is a more efficient and appropriate choice for the animal shelter application, which only requires a single CSV file.
+
+  The creation of database tables and indexes in the `_create_table()` and `_create_index()` methods respectively demonstrates a strong understanding of database design and optimization. These enhancements improve the performance and efficiency of data retrieval operations.
+
+  The CRUD (Create, Read, Update, Delete) operations, including the `read()` method, showcase the ability to correctly interact with the database and maintain data integrity. The implementation of input validation and sanitization in the `read()` method highlights the awareness of SQL injection attacks and the importance of secure coding practices when working with databases.
+
+  The `app.py` file indirectly demonstrates proficiency in databases through the interaction with the `AnimalShelter` class, which handles the database operations. The creation of the `AnimalShelter` instance and the use of its `read()` method showcases knowledge of querying databases and fetching data efficiently.
+
+  The successful deployment of the application to a Render server showcases the ability to integrate the application's database-related components into a production-ready environment, ensuring the reliable and secure handling of data in
