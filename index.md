@@ -8,6 +8,7 @@
 - [Algorithms and Data Structures](#algorithms-and-data-structures)
 - [Databases](#databases)
 - [Code Review](#code-review)
+- [Final Project Narrative Summary](#final-project-narrative-summary)
 
 ### Professional Self-Introduction and Assessment
 
