@@ -1,3 +1,5 @@
+<!-- enhancement-plan.md -->
+
 # Tammy Hartline's Computer Science E-Portfolio
 
 ## Table of Contents
