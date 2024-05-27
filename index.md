@@ -14,7 +14,7 @@
 ### Follow Me on LinkedIn!
 <a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
 
-### Home
+# Home
 
 This site was built using Github pages and jekyll themes. The purpose of this page is to serve as an e-portfolio, that will demonstrate my competence in the following computer science related specialties: 
 
@@ -23,9 +23,9 @@ This site was built using Github pages and jekyll themes. The purpose of this pa
 - **Databases**
 
 
-# Professional Performance Self-Evaluation:
+## Professional Performance Self-Evaluation:
 
-## Accomplishments:  ✍(◔◡◔)
+### Accomplishments:  ✍(◔◡◔)
 1. __Academic Excellence:__ Maintained a stellar academic record with a 4.0 GPA average since the beginning of my academic journey, while also gaining over 120 credits in just 22 months.
 2. __Recognition of Excellence:__ Consistently made the President's List every semester and the Honor Roll every term, showcasing dedication and excellence in academic pursuits.
 - [SNHU Honor Roll 23EW2](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW2/123445486)
