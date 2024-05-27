@@ -1,3 +1,5 @@
+<!-- final-enhancements-review-summary.md -->
+
 # Tammy Hartline's Computer Science E-Portfolio
 
 ## Table of Contents
