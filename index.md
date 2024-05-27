@@ -58,6 +58,93 @@ Key enhancements in the software engineering and design area:
 
 These software engineering and design enhancements, across both the animal\_shelter.py and app.py files, improve the overall quality, maintainability, security, and user experience of the application.
 
+Here is the enhanced Python code for the animal\_shelter.py file:
+``` python
+# Import required libraries
+import sqlite3
+import pandas as pd
+import os
+
+class AnimalShelter(object):
+    def __init__(self, db_path=':memory:'):
+        self.db_path = db_path
+        self._create_table()
+        self._create_index()
+
+    def _create_table(self):
+        if self.db_path == ':memory:':
+            db_file = "animals.db"
+            if os.path.exists(db_file):
+                return
+
+        query_str = '''
+            CREATE TABLE IF NOT EXISTS animals (
+                animal_id INTEGER PRIMARY KEY,
+                age_upon_outcome TEXT,
+                animal_type TEXT,
+                breed TEXT,
+                color TEXT,
+                date_of_birth TEXT,
+                datetime TEXT,
+                monthyear TEXT,
+                name TEXT,
+                outcome_subtype TEXT,
+                outcome_type TEXT,
+                sex_upon_outcome TEXT,
+                location_lat REAL,
+                location_long REAL,
+                age_upon_outcome_in_weeks REAL
+            )
+        '''
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute(query_str)
+            df = pd.read_csv("./aac_shelter_outcomes.csv")
+            df.to_sql('animals', conn, if_exists='replace', index=False)
+
+    def _create_index(self):
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_animal_type ON animals (animal_type)')
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_outcome_type ON animals (outcome_type)')
+
+    def read(self, query=None):
+        query_str = 'SELECT * FROM animals'
+        params = None
+
+        if query is not None:
+            # Input validation and sanitization
+            if not isinstance(query, tuple) or len(query) != 2:
+                raise ValueError("Invalid query format. Expected a tuple of length 2.")
+            
+            query_condition, query_params = query
+            if not isinstance(query_condition, str) or not query_condition.strip():
+                raise ValueError("Invalid query condition. Expected a non-empty string.")
+            
+            if not isinstance(query_params, tuple):
+                raise ValueError("Invalid query parameters. Expected a tuple.")
+            
+            # Sanitize the query condition to prevent SQL injection
+            query_condition = query_condition.replace(';', '').replace('--', '')
+            
+            query_str += f" WHERE {query_condition}"
+            params = query_params
+
+        try:
+            with sqlite3.connect(self.db_path) as conn:
+                cursor = conn.cursor()
+
+                if params is not None:
+                    df = pd.read_sql_query(query_str, conn, params=params)
+                else:
+                    df = pd.read_sql_query(query_str, conn)
+                return df
+        except sqlite3.Error as e:
+            # Proper error handling
+            print(f"An error occurred while executing the query: {e}")
+            return None
+```
+
 ### Algorithms and Data Structures
 
 The enhancements made to the animal\_shelter.py and app.py files collectively demonstrate a strong proficiency in algorithms and data structures.
