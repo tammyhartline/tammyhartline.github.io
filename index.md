@@ -317,132 +317,119 @@ These database-related enhancements, primarily in the animal\_shelter.py file, i
 
 Here is the test\_animal\_shelter.py file used to ensure proper functionality of the programs features:
 ``` python
-from dash import Dash, html, dcc, dash_table  # Importing necessary Dash components
-import dash  # Importing Dash
-from dash.dependencies import Input, Output  # Importing Dash callback functions
-import plotly.express as px  # Importing Plotly Express for data visualization
-import pandas as pd  # Importing Pandas for data manipulation
-from animal_shelter import AnimalShelter  # Importing AnimalShelter class for data access
-import base64  # Importing base64 for image encoding
+import unittest
+import sqlite3
+import os
+import pandas as pd
+from animal_shelter import AnimalShelter
 
-# Setup Dash
-app = Dash(__name__)  # Creating a Dash application instance
+class TestAnimalShelter(unittest.TestCase):
+    def setUp(self):
+        self.db_path = 'test_animals.db'
+        self.shelter = AnimalShelter(self.db_path)
 
-# Data Manipulation / Model
-db_path = 'animals.db'  # Path to the database file
-shelter = AnimalShelter(db_path)  # Creating an instance of AnimalShelter to interact with the database
-data = shelter.read()  # Reading data from the database
-df = pd.DataFrame(data)  # Creating a Pandas DataFrame from the retrieved data
+    def tearDown(self):
+        os.remove(self.db_path)
 
-# Get each animal type in the collection (distinct, no duplicates)
-unq_animal_types = df['animal_type'].unique()  # Extracting unique animal types from the DataFrame
-data = df.to_dict('records')  # Converting DataFrame to a list of dictionaries for Dash data components
+    def test_create_table(self):
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='animals'")
+            table_exists = cursor.fetchone() is not None
+            self.assertTrue(table_exists)
 
-# Add in Grazioso Salvare’s logo
-image_filename = 'Grazioso_Salvare_Logo.png'  # Path to the logo image file
-encoded_image = base64.b64encode(open(image_filename, 'rb').read())  # Encoding the image to base64
+    def test_create_index(self):
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='index' AND name='idx_animal_type'")
+            index_exists = cursor.fetchone() is not None
+            self.assertTrue(index_exists)
 
-# Defining the layout of the Dash application
-app.layout = html.Div([
-    html.Center(html.B(html.H1('Capstone Project Dashboard'))),  # Header
-    html.Center(html.B(html.H1("Tammy Hartline's Grazioso Salvare DashBoard Final Project"))),  # Subheader
-    html.Hr(),  # Horizontal line
+    def test_create_record(self):
+        data = {
+            'name': 'Max',
+            'animal_type': 'Dog',
+            'breed': 'Labrador',
+            'age': 3,
+            'outcome_type': 'Adoption',
+            'outcome_subtype': 'Foster',
+            'sex_upon_outcome': 'Neutered Male',
+        }
+        self.shelter.create(data)
+        result = self.shelter.read(("name = ?", ('Max',)))
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result.iloc[0]['name'], 'Max')
 
-    # Row 1: Header and Photo
-    html.Div([
-        html.Div(id='header', className='col-6', style={'text-align': 'center'}),
-        html.Div([
-            html.Img(id='customer-logo', src='data:image/png;base64,{}'.format(encoded_image.decode()),
-                     alt='customer logo image', 
-                     style={'width': '20%', 'height': '20%'}),
-        ], className='col-6', style={'display': 'flex', 'justify-content': 'center', 'align-items': 'center'}),
-    ], className='row'),
+    def test_read_all_data(self):
+        data = self.shelter.read()
+        self.assertIsInstance(data, pd.DataFrame)
+        self.assertGreater(len(data), 0)
 
-    # Row 2: Buttons for Animal Types
-    html.Div([
-        html.Div([
-            html.Button('All', id='btn-all', n_clicks=0),
-            *[html.Button(animal_type, id=f'btn-{animal_type}', n_clicks=0) for animal_type in unq_animal_types]
-            # Creating buttons for each unique animal type
-        ], className='col-6'),
-    ], className='row'),
+    def test_read_with_valid_query(self):
+        query = ("animal_type = ?", ("Dog",))
+        data = self.shelter.read(query)
+        self.assertIsInstance(data, pd.DataFrame)
+        self.assertTrue(all(data['animal_type'] == 'Dog'))
 
-    # Row 3: Data Table
-    html.Div([
-        dash_table.DataTable(
-            id='datatable-id',
-            columns=[
-                {"name": i, "id": i, "deletable": False, "selectable": True} for i in df.columns
-            ],  # Defining columns for the data table
-            data=data,
-            editable=False,
-            sort_action="native",
-            sort_mode="multi",
-            selected_rows=[0],
-            filter_action="native",
-            page_action="native",
-            page_current=0,
-            page_size=10,
-        ),
-    ], className='row'),
+    def test_read_with_invalid_query_format(self):
+        query = "invalid query"
+        with self.assertRaises(ValueError):
+            self.shelter.read(query)
 
-    # Row 4: Graph
-    html.Div([
-        dcc.Graph(id='bubble-plot', className='col-6'),
-    ], className='row'),
-])
+    def test_read_with_invalid_query_condition(self):
+        query = ("", ("Dog",))
+        with self.assertRaises(ValueError):
+            self.shelter.read(query)
 
-# This section demonstrates skills and conceptualization of software design/engineering by setting up a user-friendly interface for data visualization.
-# It also exhibits good design practices by organizing the layout in a structured and visually appealing manner.
+    def test_read_with_invalid_query_parameters(self):
+        query = ("animal_type = ?", "Dog")
+        with self.assertRaises(ValueError):
+            self.shelter.read(query)
 
-@app.callback(
-    [Output('bubble-plot', 'figure'), Output('datatable-id', 'data'), Output('datatable-id', 'columns')],
-    [Input('btn-all', 'n_clicks')] + [Input(f'btn-{animal_type}', 'n_clicks') for animal_type in unq_animal_types],
-    prevent_initial_call=True
-)
-def update_dashboard(*args):
-    btn_all_clicks, *btn_type_click = args
+    def test_read_with_sql_injection_attempt(self):
+        query = ("animal_type = ?; DROP TABLE animals; --", ("Dog",))
+        data = self.shelter.read(query)
+        self.assertIsInstance(data, pd.DataFrame)
+        self.assertTrue(all(data['animal_type'] == 'Dog'))
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='animals'")
+            table_exists = cursor.fetchone() is not None
+            self.assertTrue(table_exists)
 
-    # Determine which button was clicked
-    ctx = dash.callback_context
-    clicked_button_id = ctx.triggered[0]['prop_id'].split('.')[0]
+    def test_update_record(self):
+        data = {
+            'name': 'Max',
+            'animal_type': 'Dog',
+            'breed': 'Labrador',
+            'age': 3,
+            'outcome_type': 'Adoption',
+            'outcome_subtype': 'Foster',
+            'sex_upon_outcome': 'Neutered Male',
+        }
+        self.shelter.create(data)
+        updated_data = {'age': 4}
+        self.shelter.update(("name = ?", ('Max',)), updated_data)
+        result = self.shelter.read(("name = ?", ('Max',)))
+        self.assertEqual(result.iloc[0]['age'], 4)
 
-    if clicked_button_id == 'btn-all':
-        filtered_df = df.copy()  # No filter, so use the entire DataFrame
-    else:
-        selected_animal_type = clicked_button_id.split('-')[1]
-        filtered_df = df[df['animal_type'] == selected_animal_type]  # Filter by selected animal type
-
-    # Group by animal_type and outcome_type and count the occurrences
-    grouped_df = filtered_df.groupby(['animal_type', 'outcome_type']).size().reset_index(name='count')
-
-    print("Grouped DataFrame:")
-    print(grouped_df)
-
-    # Create a bubble chart
-    fig = px.scatter(
-        grouped_df,
-        x="animal_type",
-        y="outcome_type",
-        size="count",
-        color="animal_type",
-        hover_data={'count': True},
-        labels={'count': 'Count'}
-    )
-
-    # Convert DataFrame to dict for dash_table
-    filtered_data = filtered_df.to_dict('records')
-
-    # Generate columns for dash_table
-    columns = [{"name": i, "id": i, "deletable": False, "selectable": True} for i in filtered_df.columns]
-
-    return fig, filtered_data, columns
-
-# This callback function demonstrates skills and conceptualization of algorithms by dynamically updating the data visualization based on user interactions.
-# It efficiently filters and processes data to generate relevant charts and tables.
+    def test_delete_record(self):
+        data = {
+            'name': 'Max',
+            'animal_type': 'Dog',
+            'breed': 'Labrador',
+            'age': 3,
+            'outcome_type': 'Adoption',
+            'outcome_subtype': 'Foster',
+            'sex_upon_outcome': 'Neutered Male',
+        }
+        self.shelter.create(data)
+        self.shelter.delete(("name = ?", ('Max',)))
+        result = self.shelter.read(("name = ?", ('Max',)))
+        self.assertEqual(len(result), 0)
 
 if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', port=8050)
+    unittest.main()
 ```
 
 ### Code Review
