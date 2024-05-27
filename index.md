@@ -6,15 +6,15 @@
 
 ## Table of Contents
 
-- [Home](/index/)
-- [Professional Self-Introduction and Assessment](/layouts/assessment-and-intro/)
-- [Original Artifact Functionality](/layouts/original-artifact-functionality/)
-- [Enhancement Plan](/layouts/enhancement-plan/)
-- [Software Engineering/Design](/layouts/software-engineering-and-design/)
-- [Algorithms and Data Structures](/layouts/algorithms-and-data-structures/)
-- [Databases](/layouts/databases/)
-- [Code Review](/layouts/code-review/)
-- [Final Enhancements Review Summary](/layouts/final-enhancements-review-summary/)
+- [Home](/index.md/)
+- [Introduction/About Me](/intro.md/)
+- [Original Artifact Functionality](/original-artifact-functionality.md/)
+- [Enhancement Plan](/enhancement-plan.md/)
+- [Software Engineering/Design](/software-engineering-and-design.md/)
+- [Algorithms and Data Structures](/algorithms-and-data-structures.md/)
+- [Databases](/databases.md/)
+- [Code Review](/code-review.md/)
+- [Final Enhancements Review Summary](/final-enhancements-review-summary.md/)
   
 ### Follow Me on LinkedIn!
 <a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
