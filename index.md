@@ -37,16 +37,127 @@
 
 ### Software Engineering/Design
 
-[Content for the Software Engineering/Design section]
+The enhancements made to the animal\_shelter.py and app.py files collectively demonstrate a strong proficiency in software engineering and design principles.
+
+Key enhancements in the software engineering and design area:
+
+·        **Modular and Maintainable Design**: The animal\_shelter.py file follows a modular and object-oriented design, with the well-defined AnimalShelter class encapsulating the database operations. This promotes code reusability and maintainability, as the database-related functionality is centralized and can be easily integrated into other parts of the application.
+
+·        **Performance Optimization**: The addition of the \_create\_index() method in the animal\_shelter.py file showcases an understanding of performance optimization techniques in database management, improving the efficiency of data retrieval operations.
+
+·        **Readability and Documentation**: Both the animal\_shelter.py and app.py files include detailed comments and documentation, following best practices for code readability and maintainability. The inclusion of changelogs and version information demonstrates a commitment to version control and tracking changes over time.
+
+·        **Security Measures**: The read() method in the animal\_shelter.py file includes input validation and sanitization, demonstrating attention to security and defensive programming practices, particularly in the context of preventing SQL injection attacks.
+
+·        **Iterative Approach**: The enhancements made to the program, such as the migration from MongoDB to SQLite3, the optimization of SQL queries, and the addition and removal of various CRUD methods in the animal\_shelter.py file, showcase an iterative approach to software development and a willingness to refactor and improve the codebase as needed.
+
+·        **Structured and Interactive User Interface**: The app.py file demonstrates proficiency in software engineering and design by creating a user-friendly and interactive interface using the Dash framework. The organized layout, use of HTML components, and integration of data visualization techniques enhance the overall user experience.
+
+·        **Deployment to a Live Environment**: The successful deployment of the application to a Render server showcases the ability to transition the project from a local development environment to a production-ready platform, improving the overall accessibility and usability of the application.
+
+These software engineering and design enhancements, across both the animal\_shelter.py and app.py files, improve the overall quality, maintainability, security, and user experience of the application.
 
 ### Algorithms and Data Structures
 
-[Content for the Algorithms and Data Structures section]
+The enhancements made to the animal\_shelter.py and app.py files collectively demonstrate a strong proficiency in algorithms and data structures.
+
+Key enhancements in the algorithms and data structures area:
+
+·        **Database Utilization**: The animal\_shelter.py file utilizes the SQLite3 database, which is an efficient and lightweight embedded database solution. This choice of database technology aligns well with the application's requirements, as it only needs to handle a single CSV file.
+
+·        **Table Creation and Indexing**: The \_create\_table() and \_create\_index() methods in the animal\_shelter.py file efficiently create a table and indexes in the SQLite3 database, ensuring that the data is properly stored and organized, and improving the efficiency of data retrieval operations.
+
+·        **Data Manipulation and Processing**: The use of SQL queries and the pandas library in both the animal\_shelter.py and app.py files showcases an understanding of data manipulation and processing techniques. The read() method in the animal\_shelter.py file abstracts the database queries, allowing for more flexible and modular implementation of the application's data retrieval requirements.
+
+·        **Input Validation and Sanitization**: The read() method in the animal\_shelter.py file includes input validation and sanitization, demonstrating attention to security and defensive programming practices, effectively preventing SQL injection attacks.
+
+·        **Dynamic Data Filtering and Visualization**: The app.py file demonstrates proficiency in algorithms and data structures through the efficient manipulation and processing of data. The update\_dashboard callback function filters the data based on user interactions, groups the data, and creates interactive visualizations using Plotly Express, showcasing skills in data processing and visualization algorithms.
+
+·        **Deployment to a Live Environment**: The successful deployment of the application to a Render server showcases the ability to integrate the application's algorithms and data structures into a production-ready environment, ensuring the effectiveness and reliability of the data processing and visualization components.
+
+These enhancements in algorithms and data structures, across both the animal\_shelter.py and app.py files, improve the efficiency, scalability, security, and overall user experience of the application.
 
 ### Databases
 
-[Content for the Databases section]
+The enhancements made to the animal\_shelter.py file demonstrate a strong proficiency in database management and design.
+
+Key enhancements in the databases area:
+
+·        **Database Migration**: The decision to switch from MongoDB to SQLite3 based on the requirements of the application showcases the ability to make informed technology choices and optimize the codebase accordingly. The use of SQLite3 is a more efficient and appropriate choice for the animal shelter application, which only requires a single CSV file.
+
+·        **Table and Index Creation**: The creation of database tables and indexes in the \_create\_table() and \_create\_index() methods respectively exhibits a deep understanding of database design and optimization. These enhancements improve the performance and efficiency of data retrieval operations.
+
+·        **CRUD Operations**: The CRUD (Create, Read, Update, Delete) operations, including the read() method, demonstrate the ability to correctly interact with the database and maintain data integrity.
+
+·        **Input Validation and Sanitization**: The implementation of input validation and sanitization in the read() method in the animal\_shelter.py file highlights the awareness of SQL injection attacks and the importance of secure coding practices when working with databases.
+
+·        **Database Connectivity and Querying**: The app.py file indirectly demonstrates proficiency in databases through the interaction with the AnimalShelter class, which handles the database operations. The creation of the AnimalShelter instance and the use of its read() method showcases knowledge of querying databases and fetching data efficiently.
+
+·        **Deployment to a Live Environment**: The successful deployment of the application to a Render server showcases the ability to integrate the application's database-related components into a production-ready environment, ensuring the reliable and secure handling of data in a live setting.
+
+These database-related enhancements, primarily in the animal\_shelter.py file, improve the overall reliability, security, and performance of the application, ensuring that the data stored and retrieved is accurate and well-managed.
 
 ### Code Review
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/k3gyUmSv-Wk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Final Project Narrative Summary
+
+The enhancements made to the animal\_shelter.py and app.py files of the capstone project demonstrate a comprehensive proficiency across the key areas of software engineering and design, algorithms and data structures, and databases. These improvements not only optimized the overall program but also showcased the depth of understanding and skills acquired throughout the Computer Science program.
+
+**_Software Engineering and Design:_**
+
+The codebase follows a modular and object-oriented design, with the well-defined AnimalShelter class in the animal\_shelter.py file encapsulating the database operations. This promotes code reusability and maintainability, as the database-related functionality is centralized and can be easily integrated into other parts of the application. The addition of the \_create\_index() method showcases an understanding of performance optimization techniques in database management, improving the efficiency of data retrieval operations.
+
+Both the animal\_shelter.py and app.py files include detailed comments and documentation, following best practices for code readability and maintainability. The inclusion of changelogs and version information demonstrates a commitment to version control and tracking changes over time, which is crucial for managing complex software projects.
+
+The read() method in the animal\_shelter.py file includes input validation and sanitization, demonstrating attention to security and defensive programming practices, particularly in the context of preventing SQL injection attacks. This enhancement improves the overall security of the application and reduces the risk of malicious attacks.
+
+The iterative approach to software development is evident in the enhancements, such as the migration from MongoDB to SQLite3, the optimization of SQL queries, and the addition and removal of various CRUD methods in the animal\_shelter.py file. This willingness to refactor and improve the codebase showcases the ability to adapt to changing requirements and continuously enhance the application.
+
+In the app.py file, the use of the Dash framework demonstrates proficiency in creating a user-friendly and interactive interface. The organized layout, use of HTML components, and integration of data visualization techniques enhance the overall user experience, making the application more engaging and informative for the end-users.
+
+The successful deployment of the application to a Render server showcases the ability to transition the project from a local development environment to a production-ready platform, improving the overall accessibility and usability of the application.
+
+**_Algorithms and Data Structures:_**
+
+The animal\_shelter.py file utilizes the SQLite3 database, which is an efficient and lightweight embedded database solution. This choice of database technology aligns well with the application's requirements, as it only needs to handle a single CSV file. The `_create_table()` and `_create_index()` methods efficiently create a table and indexes in the SQLite3 database, ensuring that the data is properly stored and organized, and improving the efficiency of data retrieval operations.
+
+The use of SQL queries and the pandas library in both the animal\_shelter.py and app.py files showcases an understanding of data manipulation and processing techniques. The read() method in the animal\_shelter.py file abstracts the database queries, allowing for more flexible and modular implementation of the application's data retrieval requirements.
+
+The read() method's inclusion of input validation and sanitization in the animal\_shelter.py file demonstrates attention to security and defensive programming practices, effectively preventing SQL injection attacks.
+
+In the app.py file, the update\_dashboard callback function filters the data based on user interactions, groups the data, and creates interactive visualizations using Plotly Express, showcasing skills in data processing and visualization algorithms. These enhancements improve the user experience by providing dynamic and informative data representations.
+
+The successful deployment of the application to a Render server showcases the ability to integrate the application's algorithms and data structures into a production-ready environment, ensuring the effectiveness and reliability of the data processing and visualization components.
+
+**_Databases:_**
+
+The animal\_shelter.py file exhibits a deep understanding of database design and management. The decision to switch from MongoDB to SQLite3 based on the requirements of the application showcases the ability to make informed technology choices and optimize the codebase accordingly. The use of SQLite3 is a more efficient and appropriate choice for the animal shelter application, which only requires a single CSV file.
+
+The creation of database tables and indexes in the \_create\_table() and \_create\_index() methods respectively demonstrates a strong understanding of database design and optimization. These enhancements improve the performance and efficiency of data retrieval operations.
+
+The CRUD (Create, Read, Update, Delete) operations, including the read() method, showcase the ability to correctly interact with the database and maintain data integrity. The implementation of input validation and sanitization in the read() method highlights the awareness of SQL injection attacks and the importance of secure coding practices when working with databases.
+
+The app.py file indirectly demonstrates proficiency in databases through the interaction with the AnimalShelter class, which handles the database operations. The creation of the AnimalShelter instance and the use of its read() method showcases knowledge of querying databases and fetching data efficiently.
+
+The successful deployment of the application to a Render server showcases the ability to integrate the application's database-related components into a production-ready environment, ensuring the reliable and secure handling of data in a live setting.
+
+**_Proof of Program Optimization:_**
+
+The enhancements made to the application have resulted in a significant improvement in the build and deployment time on the Render platform. Initially, the deployment process was taking approximately 50 minutes on May 21, 2024. However, after implementing various optimizations, the build and deployment time has now been reduced to approximately 4 minutes on May 25, 2024.
+
+These optimizations, which include the removal of unnecessary requirements, enhanced error handling, added security measures, and improvements to algorithms, queries, and data structures, demonstrate the positive impact of the comprehensive enhancements made to the application. The dramatic decrease in build and deployment time is a testament to the effectiveness of these improvements and the overall optimization of the program.
+
+Deployment to a Live Environment: Another key optimization was the creation of a Render server and the successful deployment of the application to a live environment. Previously, the application was only accessible by running it on a local Jupyter Notebook and Jupyter Dash setup, which was **not** as convenient or scalable. By creating a Render server and deploying the application to it, the capstone project has become more accessible and can be easily shared with others, showcasing the final product in a real-world setting.
+
+The successful deployment to the Render server demonstrates the ability to transition the application from a local development environment to a production-ready platform. This enhancement improves the overall accessibility and usability of the application, making it more user-friendly and suitable for real-world use cases.
+
+In conclusion, the enhancements made to the animal\_shelter.py and app.py files of the capstone project showcase a comprehensive proficiency in software engineering and design, algorithms and data structures, and databases. These improvements, along with the successful deployment to a live Render server, have optimized the overall program, ensuring its reliability, security, and efficiency for the end-users. The **significant** reduction in build and deployment time and the transition to a production-ready platform are testaments to the effectiveness of these comprehensive enhancements. To view the result of all enhancements made to the program, and to interact with application, please visit [https://tammyhartlinecapstone.onrender.com](https://tammyhartlinecapstone.onrender.com/)
+
+
+<img src="images/proofop3.jpg" alt="Prior to Optimization Image" class="proof-image" style="margin: 0 auto;">
+
+<img src="images/proofop1.jpg" alt="Initial Optimization Image" class="proof-image" style="margin: 0 auto;">
+
+<img src="images/proofop2.jpg" alt="Final Optimization Image" class="proof-image" style="margin: 0 auto;">
