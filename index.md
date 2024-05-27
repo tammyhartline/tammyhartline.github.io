@@ -3,9 +3,11 @@
 
 ## Table of Contents
 
+- [Home - Intro](/index.md/)
 - [Professional Self-Introduction and Assessment](/layouts/assessment-and-intro.md/)
-- [Enhancement Plan](/layouts/enhancement-plan.md)
-- [Software Engineering and Design](/layouts/software-engineering-and-design.md/)
+- [Original Artifact Functionality](/layouts/original-artifact-functionality.md/)
+- [Enhancement Plan](/layouts/enhancement-plan.md/)
+- [Software Engineering/Design](/layouts/software-engineering-and-design.md/)
 - [Algorithms and Data Structures](/layouts/algorithms-and-data-structures.md/)
 - [Databases](/layouts/databases.md/)
 - [Code Review](/layouts/code-review.md/)
