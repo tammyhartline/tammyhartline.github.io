@@ -2,16 +2,16 @@
 
 ## Course: SNHU CS-340 Client/Server Developement
 
-*Note: I chose the same artifact for all three of proficiencies, Software Design & Engineering, Algorithms & Data Structures, and Databases. I explain the functionality of that artifact below.*
+*Note: I chose the same artifact for all three of proficiencies, Software Design & Engineering, Algorithms & Data Structures, and Databases. I will explain the functionality of that artifact below.*
 
 ---
 
-Originally my project consisted of python, Jupyter Notebook, MongoDB, and mongosh that were leveraged to create a dash application that could be launched on the local virtual desktop environment. The environment previously was fully setup, and consisted of all the dependencies, utilities, and step by step instructions on building the application.
+Originally my project consisted of Python, Jupyter Notebook, MongoDB, and Mongosh which were leveraged to create a dash application that could be launched on the local virtual desktop environment. The previous codebase environment was fully set and consisted of all the dependencies, utilities, and step-by-step instructions for building the application.
 
 ---
 
 ##### ~ ~ ~ Algorithms & Data Structures ~ ~ ~ Databases ~ ~ ~
-**Python-** Python was used for the CRUD methods that setup the ability to interact with the database records from the database application and were a critical part of the Algorithms & Data-Structures, as I was able to write simple queries, create, read, update, and delete data records, therefore altering it's structure.
+**Python-** Python was used for the CRUD methods that set the ability to interact with the database records from the database application and were a critical part of the Algorithms & Data-Structures, as I was able to write simple queries, create, read, update, and delete data records, therefore altering its structure.
 
 ```python
 from pymongo import MongoClient
@@ -124,7 +124,7 @@ class AnimalShelter(object):
 You can also view all code found here in the Github Repository: [Click here to view the code file pictured above.](https://github.com/tjhartline/SNHU-CS340/blob/main/module.py)
 
 
-For the original version, I read a .csv file and then added it manually to the MongoDB. I was required to create the database and collection, then load the records by scripting in the terminal. Here is an image taken as proof of the database creation.
+For the original program, I read a .csv file and then added it manually to the MongoDB. I was required to create the database and collection, then load the records by scripting in the terminal. Here is an image taken as proof of the database creation.
 [![Github screenshot of loaded database with my visible user name](https://github.com/tjhartline/SNHU-CS340/blob/main/dbLoadSS.png?raw=true)](https://github.com/tjhartline/SNHU-CS340/tree/main)
 *Screenshot of successfully loaded database, documents, and collections.*
 
@@ -133,9 +133,9 @@ For the original version, I read a .csv file and then added it manually to the M
 ##### ~ ~ ~ Software Engineering & Design ~ ~ ~
 ##### ~ ~ ~ Algoritms & Data Structures & Databases ~ ~ ~ 
 
-The setup, design, and implementation of the dashboard, it's features, security, and functionality demonstrates the concepts learned throughout many courses I have completed here at SNHU. While I did not struggle with the original version, that is likely due to the presetup enviroment, with all that was needed to just type the program and run it sufficiently. The enhancements on the otherhand, proved to me much more challenging. The dashboard application meets the software design and engineering criteria as it was originally structured using Pseudocode, flow-charts, and created in steps based on the desired functionality. It also required a test environment, which in this scenario was using Jupyter Notebook to run the application via local host from a firefox browser. It also required extensive use of scripting in the terminal, communicating with the terminal to engineer what we wanted the dashboard to do.
+The setup, design, and implementation of the dashboard, it's features, security, and functionality demonstrate the concepts learned throughout many courses I have completed here at SNHU. While I did not struggle with the original version, that is likely due to the pre-setup environment, with all that was needed to code and run the program sufficiently. The enhancements proved to be much more challenging. The dashboard application meets the software design and engineering criteria as it was originally structured using Pseudocode, and flowcharts, and created in steps based on the desired functionality. It also required a test environment, which in this scenario was using Jupyter Notebook to run the application via a local host from a Firefox browser. It also required extensive use of scripting in the terminal, communicating with the terminal to engineer what we wanted the dashboard to do.
 
-Calling queries, CRUD methods, and creating visuals based on our created database and table data, shows my proficiency in all needed areas of computer science for this project. To view the original funcitonality of this dashboard, please watch the [Code Review](/code-review.md) video, as I demonstrate the original functionality of this dash app. Below is the Jupyter Notebook code for creating the dashboard.
+Calling queries, CRUD methods, and creating visuals based on our created database and table data, shows my proficiency in all needed areas of computer science for this project. To view the original functionality of this dashboard, please watch the [Code Review](/layouts/code-review.md) video, as I demonstrate the original functionality of this dash app. Below is the Jupyter Notebook code for creating the dashboard.
 
 ```python
 # Tammy Hartline
