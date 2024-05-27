@@ -75,7 +75,32 @@ Moving forward, I recognize several areas for improvement that will contribute t
 As I continue to evolve in my career, I am excited to further explore my passion for artificial intelligence, the creativity and freedom software engineering offers, data analytics, and leadership. My expertise in these areas, coupled with my drive for continuous learning and improvement, will guide me toward new opportunities and challenges. I am eager to embrace change, broaden my skill set, and make a meaningful impact in the field of Computer Science, hopefully inspiring the next generation to take more interest in STEM, particularly by bringing this field to the attention of females, who are severely outnumbered by their male counterparts in this profession.
 
 In conclusion, I am grateful for the experiences that have shaped me thus far and look forward to the journey ahead. With a proactive mindset, a passion for learning, and a commitment to excellence, I am confident in my ability to achieve my goals and make a difference in the world of technology.
+---
+## Leave a Review
 
+<div class="review-container">
+  <div class="review-form">
+    <h3>Rate this Portfolio</h3>
+    <div class="stars">
+      <input type="radio" id="star5" name="rating" value="5" />
+      <label for="star5" title="Awesome">5 stars</label>
+      <input type="radio" id="star4" name="rating" value="4" />
+      <label for="star4" title="Good">4 stars</label>
+      <input type="radio" id="star3" name="rating" value="3" />
+      <label for="star3" title="Average">3 stars</label>
+      <input type="radio" id="star2" name="rating" value="2" />
+      <label for="star2" title="Poor">2 stars</label>
+      <input type="radio" id="star1" name="rating" value="1" />
+      <label for="star1" title="Terrible">1 star</label>
+    </div>
+    <textarea id="review-text" placeholder="Leave a comment..."></textarea>
+    <button id="submit-review">Submit Review</button>
+  </div>
+  <div class="review-display">
+    <h3>Reviews</h3>
+    <div id="reviews-container"></div>
+  </div>
+</div>
 ---
 ###### _Developed and Managed By: Tammy Hartline_
 ###### _Copywrite 2024 - All rights reserved._
