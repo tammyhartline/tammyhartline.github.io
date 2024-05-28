@@ -77,5 +77,10 @@ As I continue to evolve in my career, I am excited to further explore my passion
 
 In conclusion, I am grateful for the experiences that have shaped me thus far and look forward to the journey ahead. With a proactive mindset, a passion for learning, and a commitment to excellence, I am confident in my ability to achieve my goals and make a difference in the world of technology.
 
-## Leave a Review
+{% include review-form.html %}
 
+<h2>Reviews</h2>
+<ul>
+  {% for review in site.data.reviews.reviews %}
+    <li>
+      <p>{{ review.name }} rated {{ review.rating }} stars</p>
