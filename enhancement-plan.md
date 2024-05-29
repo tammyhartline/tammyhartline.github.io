@@ -2,7 +2,7 @@
 
 # Tammy Hartline's Computer Science E-Portfolio
 
-## Table of Contents
+#### Table of Contents
 
 - [Home](/index.md/)
 - [Introduction/About Me](/intro.md/)
@@ -13,9 +13,10 @@
 - [Databases](/databases.md/)
 - [Code Review](/code-review.md/)
 - [Final Enhancements Review Summary](/final-enhancements-review-summary.md/)
+- [Site & Repository Links](/site-and-repo-links.md/)
 
-### Follow Me on LinkedIn!
-<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
+###### Follow Me on LinkedIn!
+<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="50" height="50" alt="LinkedIn Logo"></a>
 
 # Enhancement Plan
 
