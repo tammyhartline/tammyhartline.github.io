@@ -39,9 +39,13 @@ Key enhancements in the software engineering and design area:
 
 These software engineering and design enhancements, across both the `animal_shelter.py` and `app.py` files, improve the overall quality, maintainability, security, and user experience of the application.
 
-## To view and interact with the final application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/).
-## To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/).
+---
 
+**_To view and interact with the final application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/)._**
+<br/>
+**_To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/)._**
+
+---
 Here is the enhanced `Python` code for the `animal_shelter.py` file:
 ``` python
 # Import required libraries
