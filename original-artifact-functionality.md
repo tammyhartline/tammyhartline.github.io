@@ -2,8 +2,6 @@
 
 # Tammy Hartline's Computer Science E-Portfolio
 
-# Tammy Hartline's Computer Science E-Portfolio
-
 #### Table of Contents
 
 - [Home](/index.md/)
