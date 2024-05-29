@@ -160,6 +160,3 @@ result = db.collection.find ({"status": "adoptable", "breed": "Labrador Retrieve
 •	Skills/Outcomes Planned to be Illustrated in the Professional Self-Assessment: Holistic understanding of software engineering principles, effective problem-solving, and commitment to ongoing improvement.
 
 This plan outlines the artifacts selected for my ePortfolio, the enhancements planned, and the skills/outcomes planned to be illustrated. It provides a detailed overview of the project's scope and objectives, demonstrating a well-rounded approach to showcasing proficiency in various aspects of computer science.
-
-## To view and interact with the final application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/).
-## To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/).
