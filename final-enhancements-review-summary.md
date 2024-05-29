@@ -6,7 +6,7 @@
 
 - [Home](/index.md/)
 - [Introduction/About Me](/intro.md/)
-- [Original Artifact Functionality](/original-artifact-functionality.md/)
+- [Original Artifacts Functionality](/original-artifact-functionality.md/)
 - [Enhancement Plan](/enhancement-plan.md/)
 - [Software Engineering/Design](/software-engineering-and-design.md/)
 - [Algorithms and Data Structures](/algorithms-and-data-structures.md/)
