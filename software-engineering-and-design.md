@@ -42,12 +42,9 @@ These software engineering and design enhancements, across both the `animal_shel
 
 ---
 
-**_To view and interact with the final application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/)._**
-<br/>
-**_To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/)._**
+Here is the enhanced `Python` code for the `animal_shelter.py` file:
 
 ---
-Here is the enhanced `Python` code for the `animal_shelter.py` file:
 ``` python
 # Import required libraries
 import sqlite3
