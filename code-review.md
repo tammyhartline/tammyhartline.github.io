@@ -17,9 +17,16 @@
 ### Follow Me on LinkedIn!
 <a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
 
-# Original Artifact Code Review
+# Code Review
 
-## To view and interact with the final application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/).
-## To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/).
+This code review video explains in further detail, the original program's functionality, any design flaws, any functionality issues or bugs, and  some of the enhancements proposed to further demonstrate my proficiency in the computer science specialties of software engineering and design, algorithms and data structures, and databases.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UVjYhasTXc8?si=9UxHnd_8uR5Xaspe" title="Original Artifacts Code Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+To view and interact with the final application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/).
+<br/>
+To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/).
+
+---
