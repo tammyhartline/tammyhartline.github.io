@@ -29,7 +29,7 @@ This site was built using Github pages and jekyll themes. The purpose of this pa
 # Professional Performance Self-Evaluation:
 
 ## Accomplishments:  ✍(◔◡◔)
-1. __Academic Excellence:__ Maintained a stellar academic record with a 4.0 GPA average per course and overall, completed 135 credits in just 22 months.
+1. __Academic Excellence:__ Maintained a stellar academic record with a 4.0 GPA average per course overall, & completed over 120 credits in just 22 months.
 2. __Recognition of Excellence:__ Consistently made the President's List every semester and the Honor Roll every term, showcasing dedication and excellence in academic pursuits.
 - [SNHU Honor Roll 23EW2](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW2/123445486)
 - [SNHU Fall 23' President's List](https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/123332565)
@@ -69,7 +69,7 @@ This site was built using Github pages and jekyll themes. The purpose of this pa
 7. __Maintain Balance:__ Maintain a healthy work-life balance to sustain long-term success and well-being.
 
 ### Summary: 🗒
-I am incredibly proud of the accomplishments I have achieved thus far in my academic and professional journey. Maintaining a 4.0 GPA, completing 135 credits in 22 months, and consistently making the President's List and Honor Roll, and gaining recognition for my academic and professional success, demonstrate my dedication to excellence. My participation in the Raytheon (RTX) 2022 Girls Who Code (GWC) Fall Leadership Academy Software Engineering Internship and being nominated for student employee of the year showcase my commitment to gaining real-world experience and excelling in my field.
+I am incredibly proud of the accomplishments I have achieved thus far in my academic and professional journey. Maintaining a 4.0 GPA, completing 120+ credits in 22 months, consistently making the President's List and Honor Roll, and gaining recognition for my academic and professional success, demonstrate my dedication to excellence. My participation in the Raytheon (RTX) 2023 Girls Who Code (GWC) Fall Leadership Academy Software Engineering Internship and being nominated for student employee of the year showcase my commitment to gaining real-world experience and excelling in my field.
 
 Moving forward, I recognize several areas for improvement that will contribute to my continued growth and success. Improving my articulation of ideas and solutions in professional settings, segmenting tasks more effectively, enhancing my software design and engineering skills, and developing better computational thinking skills are key areas of focus. Additionally, finding a balance between work and life, exploring specialties outside of my comfort zone, and learning to step away from a problem to gain a fresh perspective are all essential for my personal and professional development.
 
