@@ -66,7 +66,9 @@ The enhancements made to the application have resulted in a significant improvem
 
 These optimizations, which include the removal of unnecessary requirements, enhanced error handling, added security measures, and improvements to algorithms, queries, and data structures, demonstrate the positive impact of the comprehensive enhancements made to the application. The dramatic decrease in build and deployment time is a testament to the effectiveness of these improvements and the overall optimization of the program.
 
-**Deployment to a Live Environment:** Another key optimization was the creation of a 'Render' server and the successful deployment of the application to a live environment. Previously, the application was only accessible by running it on a local `Jupyter Notebook` and `Jupyter Dash` setup, which was **not** as convenient or scalable. By creating a `Render` server and deploying the application to it, the capstone project has become more accessible and can be easily shared with others, showcasing the final product in a real-world setting.
+**Deployment to a Live Environment:** 
+
+Another key optimization was the creation of a 'Render' server and the successful deployment of the application to a live environment. Previously, the application was only accessible by running it on a local `Jupyter Notebook` and `Jupyter Dash` setup, which was **not** as convenient or scalable. By creating a `Render` server and deploying the application to it, the capstone project has become more accessible and can be easily shared with others, showcasing the final product in a real-world setting.
 
 The successful deployment to the `Render` server demonstrates the ability to transition the application from a local development environment to a production-ready platform. This enhancement improves the overall accessibility and usability of the application, making it more user-friendly and suitable for real-world use cases.
 
