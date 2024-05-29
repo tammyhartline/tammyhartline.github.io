@@ -4,7 +4,9 @@
 
 <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto;">
 
-## Table of Contents
+# Tammy Hartline's Computer Science E-Portfolio
+
+#### Table of Contents
 
 - [Home](/index.md/)
 - [Introduction/About Me](/intro.md/)
@@ -15,9 +17,10 @@
 - [Databases](/databases.md/)
 - [Code Review](/code-review.md/)
 - [Final Enhancements Review Summary](/final-enhancements-review-summary.md/)
-  
-### Follow Me on LinkedIn!
-<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
+- [Site & Repository Links](/site-and-repo-links.md/)
+
+###### Follow Me on LinkedIn!
+<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="50" height="50" alt="LinkedIn Logo"></a>
 
 # Home
 This site was built using Github Pages and Jekyll themes. The purpose of this page is to serve as an e-portfolio, that will demonstrate my competence in the following computer science related specialties:
