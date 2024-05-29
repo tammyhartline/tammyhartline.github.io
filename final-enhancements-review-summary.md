@@ -60,9 +60,6 @@ The `app.py` file indirectly demonstrates proficiency in databases through the i
 
 The successful deployment of the application to a Render server showcases the ability to integrate the application's database-related components into a production-ready environment, ensuring the reliable and secure handling of data in a live setting.
 
-## To view and interact with the final application, please visit [https://tammyhartlinescapstone.onrender.com](https://tammyhartlinescapstone.onrender.com/).
-## To view my project repository, please visit [https://github.com/tjhartline/capstone](https://github.com/tjhartline/capstone/).
-
 **_Proof of Program Optimization:_**
 
 The enhancements made to the application have resulted in a significant improvement in the build and deployment time on the `Render` platform. Initially, the deployment process was taking approximately 50 minutes on May 21, 2024. However, after implementing various optimizations, the build and deployment time has now been reduced to approximately 4 minutes on May 25, 2024.
