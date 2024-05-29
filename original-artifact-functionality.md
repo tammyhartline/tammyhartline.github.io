@@ -1,6 +1,6 @@
 <!-- original-artifact-functionality.md -->
 
-# Tammy Hartline's Computer Science E-Portfolio
+# Tammy Hartline's E-Portfolio
 
 #### Table of Contents
 
