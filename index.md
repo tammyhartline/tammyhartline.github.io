@@ -4,8 +4,6 @@
 
 <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto;">
 
-# Tammy Hartline's Computer Science E-Portfolio
-
 #### Table of Contents
 
 - [Home](/index.md/)
