@@ -8,7 +8,7 @@
 
 - [Home](/index.md/)
 - [Introduction/About Me](/intro.md/)
-- [Original Artifact Functionality](/original-artifact-functionality.md/)
+- [Original Artifacts Functionality](/original-artifact-functionality.md/)
 - [Enhancement Plan](/enhancement-plan.md/)
 - [Software Engineering/Design](/software-engineering-and-design.md/)
 - [Algorithms and Data Structures](/algorithms-and-data-structures.md/)
@@ -20,7 +20,7 @@
 <a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
 
 # Home
-This site was built using Github pages and jekyll themes. The purpose of this page is to serve as an e-portfolio, that will demonstrate my competence in the following computer science related specialties:
+This site was built using Github Pages and Jekyll themes. The purpose of this page is to serve as an e-portfolio, that will demonstrate my competence in the following computer science related specialties:
 
 - Software Engineering and Design
 - Algorithms and Data Structures
