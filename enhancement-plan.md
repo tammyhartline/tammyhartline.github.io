@@ -17,7 +17,7 @@
 ### Follow Me on LinkedIn!
 <a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
 
-# Artifact Enhancement Plan
+# Enhancement Plan
 
 ### Category One: Software Engineering/Design
 •	Artifact: Grazioso Animal Shelter CRM Dashboard
