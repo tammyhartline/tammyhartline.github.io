@@ -1,4 +1,4 @@
-<!-- algorithms-and-data-structures.md -->
+<!-- algorithms-and-data-structures.md  -->
 # Tammy Hartline's E-Portfolio
 
 #### Table of Contents
