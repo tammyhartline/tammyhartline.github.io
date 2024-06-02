@@ -20,7 +20,7 @@
 
 ### Introduction/About Me
 
-  My journey into the field of computer science began with a fascination for technology that sparked when the internet was launched to the public. Although computers at that time lacked the advanced features and user-friendliness of today, the potential for growth and innovation captivated me. During my freshman year of college in 2005, I enrolled in a few computer science courses, only to find myself as the sole female student, facing discouragement from pursuing this field. Consequently, I chose to pursue a degree in Business Administration with a concentration in Accounting.
+  My journey into the field of computer science began with a fascination for technology that sparked when the internet was launched to the public. Although computers at that time lacked the advanced features and user-friendliness available today, the potential for growth and innovation captivated me. During my freshman year of college in 2005, I enrolled in a few computer science courses, only to find myself as the sole female student, facing discouragement from pursuing this field. Consequently, I chose to pursue a degree in Business Administration with a concentration in Accounting.
 <br/>
 <br/>
   After college, my fondest moments at work were when our systems encountered issues, allowing me to explore the command prompt and restore the network to full operation. Following a diagnosis of narcolepsy with cataplexy, I shifted my focus to being a stay-at-home mother to my three daughters and working seasonally as a tax specialist. Little did I know that the COVID-19 pandemic would reignite my passion for technology.
