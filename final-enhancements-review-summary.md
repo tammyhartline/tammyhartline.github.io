@@ -75,6 +75,6 @@ The successful deployment to the `Render` server demonstrates the ability to tra
 
 In conclusion, the enhancements made to the `animal_shelter.py` and `app.py` files of the capstone project showcase a comprehensive proficiency in software engineering and design, algorithms and data structures, and databases. These improvements, along with the successful deployment to a live `Render` server, have optimized the overall program, ensuring its reliability, security, and efficiency for the end-users. The **significant** reduction in build and deployment time and the transition to a production-ready platform are testaments to the effectiveness of these comprehensive enhancements. 
 
-<img src="/proofop1.png">
+<img name="orig_runtime"  src="/proofop1.png">
 
-<img src="/proofop2.png">
+<img name="enhanced_runtime" src="/proofop2.png">
