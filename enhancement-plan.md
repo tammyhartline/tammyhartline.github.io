@@ -22,8 +22,11 @@
 # Enhancement Plan
 
 ### Category One: Software Engineering/Design
+
 •	Artifact: Grazioso Animal Shelter CRM Dashboard
+
 •	Origin: SNHU Course CS-340 [Original Artifact Repository](https://github.com/tjhartline/SNHU-CS340) – Completed October 2023
+
 •	Category: Software Engineering/Design
 
 **Enhancement Plan:**
@@ -35,14 +38,23 @@
 6.	Deploy the HTML file and the CRM Dashboard to the configured server.
 
 **Skills Demonstrated:**
+
 •	Proficiency in multiple programming languages (Python, HTML)
+
 •	File manipulation and conversion
+
 •	Web development concepts (HTML, server deployment)
+
 •	Version control using Git
+
 •	Documentation and commenting skills
+
 •	Problem-solving and critical thinking
+
 •	Understanding of server configurations and deployment processes
+
 •	User Interface (UI) design principles
+
 •	Continuous learning and adaptability
 
 ```
@@ -59,8 +71,11 @@ Git push origin master
 Git push render master
 ```
 ### Category Two: Algorithms and Data Structures
+
 •	Artifact: Grazioso Animal Shelter CRM Dashboard
+
 •	Origin: SNHU Course CS-340 [Original Artifact Repository](https://github.com/tjhartline/SNHU-CS340) – Completed October 2023
+
 •	Category: Algorithms and Data Structures
 
 **Enhancement Plan:**
@@ -71,11 +86,17 @@ Git push render master
 5.	Integrate the optimized algorithms and data structures into the CRM Dashboard application.
    
 **Skills Demonstrated:**
+
 •	Understanding of data structures and their applications
+
 •	Algorithm design and implementation
+
 •	Time and space complexity analysis
+
 •	Performance optimization techniques
+
 •	Integration of data structures and algorithms into practical applications
+
 •	Problem-solving and critical thinking
 
 ```
@@ -127,11 +148,15 @@ def delete_record (animal_id):
 connection.close()
 ```
 ### Category Three: Databases
+
 •	Artifact: Grazioso Animal Shelter CRM Dashboard
+
 •	Origin: SNHU Course CS-340 [Original Artifact Repository](https://github.com/tjhartline/SNHU-CS340) – Completed October 2023
+
 •	Category: Databases
 
 **Enhancement Plan:**
+
 1.	Review and analyze the existing database queries for potential optimization opportunities.
 2.	Implement indexing on relevant columns to improve query performance.
 3.	Restructure and refine queries based on best practices (e.g., query structure, data filtering, and joins).
@@ -139,11 +164,17 @@ connection.close()
 5.	Document and explain the optimization techniques applied and their impact on query performance.
    
 **Skills Demonstrated:**
+
 •	Database query optimization techniques
+
 •	Indexing strategies for performance improvements
+
 •	Query restructuring and refinement
+
 •	Performance analysis and benchmarking
+
 •	Documentation and reporting skills
+
 •	Attention to detail and critical thinking
 
 ```
@@ -156,8 +187,12 @@ db.collection.create_index ([("status", pymongo.ASCENDING), ("breed", pymongo.AS
 result = db.collection.find ({"status": "adoptable", "breed": "Labrador Retriever"}).hint([("status", 1), ("breed", 1)])
 ```
 ### Skills Shown with Proposed Enhancements
+
 •	Skills/Outcomes Planned to be Illustrated in the Code Review: Technical proficiency, addressing previous grading experiences.
+
 •	Skills/Outcomes Planned to be Illustrated in the Narratives: Insights into the decision-making process, lessons learned, and continuous improvement.
+
 •	Skills/Outcomes Planned to be Illustrated in the Professional Self-Assessment: Holistic understanding of software engineering principles, effective problem-solving, and commitment to ongoing improvement.
+
 
 This plan outlines the artifacts selected for my ePortfolio, the enhancements planned, and the skills/outcomes planned to be illustrated. It provides a detailed overview of the project's scope and objectives, demonstrating a well-rounded approach to showcasing proficiency in various aspects of computer science.
