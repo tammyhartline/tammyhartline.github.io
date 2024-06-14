@@ -151,8 +151,7 @@ For the original program, I read a .csv file and then added it manually to the M
 
 ---
 
-##### Software Engineering & Design
-##### Algoritms & Data Structures & Databases
+### Proficiencies and Concepts Learned During From Courses at SNHU
 
 The setup, design, and implementation of the dashboard, its features, security, and functionality demonstrate the concepts learned throughout many courses I have completed here at SNHU. While I did not struggle with the original version, that is likely due to the pre-setup environment, with all that was needed to code and run the program sufficiently. The enhancements proved to be much more challenging. The dashboard application meets the software design and engineering criteria as it was originally structured using Pseudocode, and flowcharts, and created in steps based on the desired functionality. It also required a test environment, which in this scenario was using Jupyter Notebook to run the application via a local host from a Firefox browser. It also required extensive use of scripting in the terminal, communicating with the terminal to engineer what we wanted the dashboard to do.
 
