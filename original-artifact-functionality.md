@@ -31,7 +31,7 @@ Originally my project consisted of Python, Jupyter Notebook, MongoDB, and Mongos
 
 ---
 
-##### ~ ~ ~ Algorithms & Data Structures ~ ~ ~ Databases ~ ~ ~
+### Algorithms & Data Structures & Databases
 **Python-** Python was used for the CRUD methods that set the ability to interact with the database records from the database application and were a critical part of the Algorithms & Data-Structures, as I was able to write simple queries, create, read, update, and delete data records, therefore altering its structure.
 
 ```python
@@ -151,10 +151,10 @@ For the original program, I read a .csv file and then added it manually to the M
 
 ---
 
-##### ~ ~ ~ Software Engineering & Design ~ ~ ~
-##### ~ ~ ~ Algoritms & Data Structures & Databases ~ ~ ~ 
+##### Software Engineering & Design
+##### Algoritms & Data Structures & Databases
 
-The setup, design, and implementation of the dashboard, it's features, security, and functionality demonstrate the concepts learned throughout many courses I have completed here at SNHU. While I did not struggle with the original version, that is likely due to the pre-setup environment, with all that was needed to code and run the program sufficiently. The enhancements proved to be much more challenging. The dashboard application meets the software design and engineering criteria as it was originally structured using Pseudocode, and flowcharts, and created in steps based on the desired functionality. It also required a test environment, which in this scenario was using Jupyter Notebook to run the application via a local host from a Firefox browser. It also required extensive use of scripting in the terminal, communicating with the terminal to engineer what we wanted the dashboard to do.
+The setup, design, and implementation of the dashboard, its features, security, and functionality demonstrate the concepts learned throughout many courses I have completed here at SNHU. While I did not struggle with the original version, that is likely due to the pre-setup environment, with all that was needed to code and run the program sufficiently. The enhancements proved to be much more challenging. The dashboard application meets the software design and engineering criteria as it was originally structured using Pseudocode, and flowcharts, and created in steps based on the desired functionality. It also required a test environment, which in this scenario was using Jupyter Notebook to run the application via a local host from a Firefox browser. It also required extensive use of scripting in the terminal, communicating with the terminal to engineer what we wanted the dashboard to do.
 
 Calling queries, CRUD methods, and creating visuals based on our created database and table data, shows my proficiency in all needed areas of computer science for this project. To view the original functionality of this dashboard, please watch the [Code Review](/layouts/code-review.md) video, as I demonstrate the original functionality of this dash app. Below is the Jupyter Notebook code for creating the dashboard.
 
