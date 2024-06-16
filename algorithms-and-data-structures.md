@@ -5,6 +5,7 @@
 
 - [Home](/index.md/)
 - [Introduction/About Me](/intro.md/)
+- [Girls Who Code Hosted by RTX Internship Project](/internship_project.md/)
 - [Original Artifacts Functionality](/original-artifact-functionality.md/)
 - [Enhancement Plan](/enhancement-plan.md/)
 - [Software Engineering/Design](/software-engineering-and-design.md/)
