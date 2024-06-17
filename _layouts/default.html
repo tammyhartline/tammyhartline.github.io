@@ -22,18 +22,6 @@
 
  <body>
    <header>
-     <div class="inner">
-       <a href="{{ '/' | absolute_url }}">
-         <h1>{{ site.title | default: site.github.repository_name }}</h1>
-       </a>
-       <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-       {% if site.github.is_project_page %}
-       <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
-       {% endif %}
-       {% if site.github.is_user_page %}
-       <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
-       {% endif %}
-     </div>
    </header>
 
    <div id="content-wrapper">
@@ -41,32 +29,6 @@
        <section id="main-content">
          {{ content }}
        </section>
-
-       <aside id="sidebar">
-         {% if site.show_downloads %}
-         <a href="{{ site.github.zip_url }}" class="button">
-           <small>Download</small>
-           .zip file
-         </a>
-         <a href="{{ site.github.tar_url }}" class="button">
-           <small>Download</small>
-           .tar.gz file
-         </a>
-         {% endif %}
-
-         <nav id="sidebar-menu" style="margin: 30px 0; font-family: 'Architects Daughter';">
-           <h2>Navigation</h2>
-           <p><a href="https://tammyhartline.github.io/ePortfolio" title="ePortfolio Home"><img
-                 src="https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant"
-                 alt="Tammy Hartline ePortfolio Home" /></a></p>
-   			<p><a href="https://tammyhartline.github.io/ePortfolio/CodeReview" title="Artifacts Code Review"><img src="https://img.shields.io/badge/Artifacts-Code_Review-yellowgreen.svg?style=for-the-badge&logo=codereview" alt="Artifacts Code Review" /></a></p>
-   			<p><a href="https://tammyhartline.github.io/ePortfolio/CS360" title="Software Design and Engineering Artifact"><img src="https://img.shields.io/badge/Artifact-Software_Design_and_Engineering-yellow.svg?style=for-the-badge&logo=paloaltosoftware" alt="Software Design and Engineering Artifact" /></a></p>
-   			<p><a href="https://tammyhartline.github.io/ePortfolio/IT145" title="Algorithms and Data Structure Artifact"><img src="https://img.shields.io/badge/Artifact-Algorithms_and_Data_Structure-orange.svg?style=for-the-badge&logo=thealgorithms" alt="Algorithms and Data Structure Artifact" /></a></p>
-   			<p><a href="https://tammyhartline.github.io/ePortfolio/CS340" title="Databases Artifact"><img src="https://img.shields.io/badge/Artifact-Databases-blueviolet.svg?style=for-the-badge&logo=microsoftaccess" alt="Databases Artifact" /></a></p>
-           <p><a href="https://github.com/tammyhartline/ePortfolio/blob/main/LICENSE" title="GitHub MIT License"><img
-                 src="https://img.shields.io/github/license/tammyhartline/ePortfolio?style=for-the-badge&amp;logo=github"
-                 alt="GitHub MIT License"></a></p>
-         </nav>
 
          <div id="honors-awards" style="margin: 30px 0; font-family: 'Times New Roman';">
            <h2>Merit Page</h2>
