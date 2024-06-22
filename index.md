@@ -35,7 +35,7 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 1. __Academic Excellence:__ Maintained a stellar academic record with a 4.0 GPA average per course overall, & completed over 120 credits in just 22 months.
 2. __Recognition of Excellence:__ Consistently made the President's List every semester and the Honor Roll every term, showcasing dedication and excellence in academic pursuits.
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex;">
   <a href="https://meritpages.com/tammy.hartline">
     <img src="merit_logo.png" alt="Tammy's Merit Page">
   </a>
