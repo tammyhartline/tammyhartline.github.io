@@ -50,7 +50,7 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <a href="https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/123332565">
-    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+    <img src="preslist.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
   </a>
   <span> SNHU Fall 23' President's List</span>
 </div>
@@ -64,7 +64,7 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <a href="https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/115030907">
-    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+    <img src="preslist.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
   </a>
   <span> SNHU Summer 23' President's List</span>
 </div>
@@ -85,7 +85,7 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <a href="https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/109621343">
-    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+    <img src="preslist.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
   </a>
   <span> SNHU Winter 23' President's List</span>
 </div>
@@ -113,7 +113,7 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <a href="https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-SNHU-President-s-List/99723699">
-    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+    <img src="preslist.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
   </a>
   <span> SNHU Fall 22' President's List</span>
 </div>
@@ -134,7 +134,7 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <a href="https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-SNHU-President-s-List/90639512">
-    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+    <img src="preslist.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
   </a>
   <span> SNHU Summer 22' President's List</span>
 </div>
