@@ -1,7 +1,5 @@
 # Tammy Hartline's E-Portfolio
 
-# Tammy Hartline's E-Portfolio
-
 #### Table of Contents
 
 - [Home](/index.md/)
