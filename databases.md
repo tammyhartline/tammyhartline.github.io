@@ -39,6 +39,32 @@ Key enhancements in the databases area:
 
 These database-related enhancements, primarily in the `animal_shelter.py` file, improve the overall reliability, security, and performance of the application, ensuring that the data stored and retrieved is accurate and well-managed.
 
+---
+
+**How to Run the Code:**
+
+1. Ensure you have Python installed on your system (version 3.7 or higher recommended).
+
+2. Install the required dependencies by running the following command in your terminal/shell:
+
+   `pip install pandas sqlite3`
+
+3. Make sure you have the `animal_shelter.py` file in the same directory as the `test_animal_shelter.py` file.
+
+4. Save the `test_animal_shelter.py` file with the provided code in your project directory.
+
+5. To run the unit tests, execute the following command in your terminal:
+
+   `python -m unittest test_animal_shelter.py`
+
+6. The test results will be displayed in the terminal, showing which tests passed or failed.
+
+Note: These tests are designed to run **independently** of your main database, using a separate test database file. The test database will be created and deleted automatically during the testing process.
+
+Running these tests demonstrates the robustness of my database implementation, showcasing an ability to handle various scenarios including data creation, reading, updating, and deleting, as well as error handling and SQL injection prevention. This comprehensive test suite underlines my proficiency in database management and secure coding practices.
+
+---
+
 Here is the `test_animal_shelter.py` file used to ensure proper functionality of the program's features:
 
 ``` python
