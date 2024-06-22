@@ -145,6 +145,7 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
   </a>
   <span> SNHU Honor Roll 22EW5</span>
 </div>
+
 3. __Prestigious Internship:__ Successfully completed a prestigious internship at Raytheon (RTX) Girls Who Code (GWC) Fall Leadership Academy, gaining valuable hands-on experience in software engineering. (Completed December 10, 2023)
 4. __Leadership Recognition:__ Nominated to present the Spring 2024 commencement speech and of the 700+ student employees at SNHU, I was one of the 23 total nominated for the 2023 Student Employee of the Year after six short months of employment, demonstrating leadership and excellence in professional settings.
 5. __Honor Society Inductions:__ Inducted into prestigious honor societies, Alpha Sigma Lambda and National Society of Leadership and Success, for academic and leadership achievements.
