@@ -42,6 +42,37 @@ Key enhancements in the software engineering and design area:
 These software engineering and design enhancements, across both the `animal_shelter.py` and `app.py` files, improve the overall quality, maintainability, security, and user experience of the application.
 
 ---
+How to Run the Code:
+
+1. Ensure you have Python installed on your system (version 3.7 or higher recommended).
+
+2. Install the required dependencies by running the following command in your terminal:
+   pip install pandas sqlite3
+
+3. Save the animal_shelter.py file in your project directory.
+
+4. To use the AnimalShelter class in your main application:
+- Import the class: `from animal_shelter import AnimalShelter`
+- Create an instance: `shelter = AnimalShelter("animals.db")`
+- Use the methods as needed, for example:
+  ```python
+  # Read all records
+  all_animals = shelter.read()
+  
+  # Read with a specific query
+  dogs = shelter.read(("animal_type = ?", ("Dog",)))
+  ```
+
+5. To run the Dash application (app.py file):
+- Install Dash: `pip install dash`
+- Run the application: `python app.py`
+- Open a web browser and navigate to `http://localhost:8050` (or the port specified in the app file)
+
+Note: Ensure that your CSV file (aac_shelter_outcomes.csv) is in the same directory as your Python scripts.
+
+These instructions provide a step-by-step guide for setting up and running my enhanced animal shelter application, showcasing the improved accessibility and ease of use resulting from my software engineering and design enhancements.
+
+---
 
 Here is the enhanced `Python` code for the `animal_shelter.py` file:
 
