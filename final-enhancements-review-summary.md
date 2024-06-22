@@ -71,9 +71,23 @@ These optimizations, which include the removal of unnecessary requirements, enha
 
 Another key optimization was the creation of a 'Render' server and the successful deployment of the application to a live environment. Previously, the application was only accessible by running it on a local `Jupyter Notebook` and `Jupyter Dash` setup, which was **not** as convenient or scalable. By creating a `Render` server and deploying the application to it, the capstone project has become more accessible and can be easily shared with others, showcasing the final product in a real-world setting.
 
-The successful deployment to the `Render` server demonstrates the ability to transition the application from a local development environment to a production-ready platform. This enhancement improves the overall accessibility and usability of the application, making it more user-friendly and suitable for real-world use cases.
+The successful deployment to the `Render` server demonstrates the ability to transition the application from a local development environment to a production-ready platform. This enhancement improves the overall accessibility and usability of the application, making it more user-friendly and suitable for real-world use cases. 
 
-In conclusion, the enhancements made to the `animal_shelter.py` and `app.py` files of the capstone project showcase a comprehensive proficiency in software engineering and design, algorithms and data structures, and databases. These improvements, along with the successful deployment to a live `Render` server, have optimized the overall program, ensuring its reliability, security, and efficiency for the end-users. The **significant** reduction in build and deployment time and the transition to a production-ready platform are testaments to the effectiveness of these comprehensive enhancements. 
+**_Understanding & Implementation of Industry Standard Best Practices:_**
+
+Something not mentioned in each enhancement narrative is the implementation of some needed code cleanup, to improve the program's modularity and readability. Previously the code, while well structured and formatted, included too many code comments and had a few instances of non-descriptive variable names. Updating variable names to be more descriptive, cleaning up unused functions and imports, and removing any excessive code comments, allowed me to showcase a deep understanding of code maintainability and best practices in software development.
+
+This refactoring process specifically demonstrates:
+
+- _Improved Code Readability:_ By using more descriptive variable names, the code becomes self-documenting, reducing the need for excessive comments and making it easier for other developers to understand and maintain.
+- _Enhanced Modularity:_ Removing unused functions and imports streamlines the codebase, making it more efficient and easier to navigate. This modular approach allows for easier updates and expansions in the future.
+- _Adherence to Clean Code Principles:_ The cleanup process aligns with clean code principles, emphasizing clarity, simplicity, and efficiency in code writing.
+- _Attention to Detail:_ The initiative to improve even well-structured code shows my commitment to continuous improvement and a keen eye for optimization opportunities.
+- _Professional Development Skills:_ This showcases my ability to critically review and refine existing code, an essential skill in professional software development environments.
+
+By implementing these improvements, the project not only demonstrates technical proficiency in specific areas like database management, algorithms, and software design but also highlights a holistic approach to software development that values long-term maintainability and code quality. 
+
+In conclusion, the enhancements made to the `animal_shelter.py` and `app.py` files of the capstone project showcase a comprehensive proficiency in software engineering and design, algorithms and data structures, and databases. These improvements, along with the successful deployment to a live `Render` server, have optimized the overall program, ensuring its reliability, security, and efficiency for both end-users and future developers. The **significant** reduction in build and deployment time and the transition to a production-ready platform are testaments to the effectiveness of these comprehensive enhancements. 
 
 <img src="/proofop1.png">
 
