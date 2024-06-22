@@ -36,7 +36,6 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 2. __Recognition of Excellence:__ Consistently made the President's List every semester and the Honor Roll every term, showcasing dedication and excellence in academic pursuits.
 
 <div style="display: flex; align-items: center;">
-  <h1>Tammy's SNHU Merit Page & Awards</h1>
   <a href="https://meritpages.com/tammy.hartline">
     <img src="merit_logo.png" alt="Tammy's Merit Page">
   </a>
