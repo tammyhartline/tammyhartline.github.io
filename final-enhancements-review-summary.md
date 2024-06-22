@@ -13,6 +13,7 @@
 - [Databases](/databases.md/)
 - [Code Review](/code-review.md/)
 - [Final Enhancements Review Summary](/final-enhancements-review-summary.md/)
+- [Enhanced Program - Run Instructions](/program_instructions.md/)
 - [Career Objective: Machine Learning Architect](/career-objective.md)
 - [Site & Repository Links](/site-and-repo-links.md/)
 
