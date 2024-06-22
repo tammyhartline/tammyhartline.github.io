@@ -23,7 +23,7 @@
 <a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="50" height="50" alt="LinkedIn Logo"></a>
 
 # Home
-This site was built using Github Pages and Jekyll themes. The purpose of this page is to serve as an e-portfolio, that will demonstrate my competence in the following computer science related specialties:
+This site was built using Github Pages and Jekyll themes. The purpose of this page is to serve as an e-portfolio, that will demonstrate my competence in the following computer science specialties:
 
 - Software Engineering and Design
 - Algorithms and Data Structures
@@ -34,21 +34,118 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 ## Accomplishments:  ✍(◔◡◔)
 1. __Academic Excellence:__ Maintained a stellar academic record with a 4.0 GPA average per course overall, & completed over 120 credits in just 22 months.
 2. __Recognition of Excellence:__ Consistently made the President's List every semester and the Honor Roll every term, showcasing dedication and excellence in academic pursuits.
-- [SNHU Honor Roll 23EW2](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW2/123445486)
-- [SNHU Fall 23' President's List](https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/123332565)
-- [SNHU Honor Roll 23EW1](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW1/119530985)
-- [SNHU Summer 23' President's List](https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/115030907)
-- [SNHU Honor Roll 23EW6](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW6/115063954)
-- [SNHU Honor Roll 23EW5](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW5/112828270)
-- [SNHU Winter 23' President's List](https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/109621343)
-- [SNHU Honor Roll 23EW4](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW4/108177040)
-- [SNHU Honor Roll 23EW3](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW3/103592257)
-- [SNHU Honor Roll 22EW2](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/100031425)
-- [SNHU Fall 22' President's List](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-SNHU-President-s-List/99723699)
-- [SNHU Honor Roll 22EW1](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/94781765)
-- [SNHU Honor Roll 22EW6](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/90697312)
-- [SNHU Summer 22' President's List](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-SNHU-President-s-List/90639512)
-- [SNHU Honor Roll 22EW5](https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/85852018)
+
+<div style="display: flex; align-items: center;">
+  <h1>Tammy's SNHU Merit Page & Awards</h1>
+  <a href="https://meritpages.com/tammy.hartline">
+    <img src="merit_logo.png" alt="Tammy's Merit Page">
+  </a>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW2/123445486">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Honor Roll 23EW2</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/123332565">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Fall 23' President's List</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW1/119530985">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Honor Roll 23EW1</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/115030907">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Summer 23' President's List</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW6/115063954">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Honor Roll 23EW6</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW5/112828270">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Honor Roll 23EW5</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/SNHU-President-s-List-Announced/109621343">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Winter 23' President's List</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW4/108177040">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Honor Roll 23EW4</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-23EW3/103592257">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Honor Roll 23EW3</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/100031425">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Honor Roll 22EW2</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-SNHU-President-s-List/99723699">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Fall 22' President's List</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/94781765">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Honor Roll 22EW1</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/90697312">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Honor Roll 22EW6</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-SNHU-President-s-List/90639512">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Summer 22' President's List</span>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <a href="https://snhu.meritpages.com/stories/Tammy-Hartline-Named-to-Honor-Roll/85852018">
+    <img src="merit-page-hr.png" alt="Merit Logo" style="width: 50px; height: 50px; margin-right: 10px;">
+  </a>
+  <span> SNHU Honor Roll 22EW5</span>
+</div>
 3. __Prestigious Internship:__ Successfully completed a prestigious internship at Raytheon (RTX) Girls Who Code (GWC) Fall Leadership Academy, gaining valuable hands-on experience in software engineering. (Completed December 10, 2023)
 4. __Leadership Recognition:__ Nominated to present the Spring 2024 commencement speech and of the 700+ student employees at SNHU, I was one of the 23 total nominated for the 2023 Student Employee of the Year after six short months of employment, demonstrating leadership and excellence in professional settings.
 5. __Honor Society Inductions:__ Inducted into prestigious honor societies, Alpha Sigma Lambda and National Society of Leadership and Success, for academic and leadership achievements.
