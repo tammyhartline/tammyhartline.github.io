@@ -38,6 +38,32 @@ Key enhancements in the algorithms and data structures area:
 
 These enhancements in algorithms and data structures, across both the `animal_shelter.py` and `app.py` files, improve the efficiency, scalability, security, and overall user experience of the application.
 
+---
+
+**How to Run the Code:**
+
+1. Ensure you have Python installed on your system (version 3.7 or higher recommended).
+
+2. Install the required dependencies by running the following command in your terminal/shell:
+   pip install dash pandas plotly
+
+3. Make sure you have the `animal_shelter.py` file in the same directory as the `app.py` file.
+
+4. Ensure you have the Grazioso Salvare logo image file (`Grazioso_Salvare_Logo.png`) in the same directory as the `app.py` file.
+
+5. Save the `app.py` file with the provided code in your project directory.
+
+6. Run the Dash application by executing the following command in your terminal/shell:
+   python app.py
+
+7. Open a web browser and navigate to `http://localhost:8050` to view and interact with the dashboard.
+
+Note: Make sure that the SQLite database file (`animals.db`) is in the same directory as the Python scripts, or update the `db_path` variable in the `app.py` file with the correct path to your database.
+
+These instructions provide a step-by-step guide for setting up and running my enhanced animal shelter dashboard application. This demonstrates my ability to create user-friendly, interactive data visualization tools, showcasing my proficiency in algorithms and data structures.
+
+---
+
 Here is the enhanced `Python` code for the `app.py` file:
 ``` python
 from dash import Dash, html, dcc, dash_table  # Importing necessary Dash components
