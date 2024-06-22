@@ -31,9 +31,9 @@ This guide provides step-by-step instructions to set up and run the enhanced Ani
 
 ### Prerequisites
 
-1. Ensure you have Python installed on your system (version 3.7 or higher recommended).
+1. Ensure you have `Python` installed on your system (`version 3.7` or higher recommended).
 
-2. Install Git on your system if it's not already installed.
+2. Install `Git` on your system if it's not already installed.
 
 ### Setup and Installation
 
@@ -49,8 +49,9 @@ This guide provides step-by-step instructions to set up and run the enhanced Ani
 
 ### Running the Program
 
-1. Running the Dash Application:
+1. Running the `Dash` Application:
    - In the terminal, ensure you're in the project directory.
+     
    - Run the following command:
 
      `python app.py`
