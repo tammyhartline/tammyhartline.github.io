@@ -7,10 +7,10 @@
     }
     .main-content {
         flex: 1;
-        padding-right: 25px;
+        padding-right: 20px;
     }
     .nav-menu {
-        width: 225px;
+        width: 200px;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -18,7 +18,7 @@
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        margin-left: 10px;
+        margin-left: 25px;
         position: sticky;
         top: 20px;
     }
