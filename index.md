@@ -2,7 +2,7 @@
 
 # Tammy Hartline's E-Portfolio
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: left; gap: 10px; margin-bottom: 20px;">
     <a href="/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Home</a>
     <a href="/intro" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Introduction/About Me</a>
     <a href="/original-artifact-functionality" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Original Artifacts Functionality</a>
