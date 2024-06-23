@@ -38,7 +38,7 @@
 
 <div class="content-wrapper">
     <div class="main-content">
-        <h1 style="text-align: center;">Tammy Hartline's E-Portfolio</h1>
+        <h1 style="text-align: center;">Tammy Hartline's<br>E-Portfolio</h1>
     <div style="text-align: center;">
         <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 350px; height: 350px; border-radius: 50%; margin: 0 auto;">
         <h3 class="centered">Follow Me on LinkedIn!</h3>
