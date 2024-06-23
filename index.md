@@ -25,7 +25,7 @@
     .nav-menu a {
         background-color: #8B0000;
         color: white;
-        padding: 10px 15px;
+        padding: 10px 10px;
         text-decoration: none;
         border-radius: 5px;
         text-align: center;
