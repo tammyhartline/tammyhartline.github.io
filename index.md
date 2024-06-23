@@ -3,18 +3,18 @@
 # Tammy Hartline's E-Portfolio
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px;">
-    <a src="/index.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Home</a>
-    <a src="/intro.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Introduction/About Me</a>
-    <a src="/original-artifact-functionality.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Original Artifacts Functionality</a>
-    <a src="/enhancement-plan.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Enhancement Plan</a>
-    <a src="/software-engineering-and-design.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Software Engineering/Design</a>
-    <a src="/algorithms-and-data-structures.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Algorithms and Data Structures</a>
-    <a src="/databases.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Databases</a>
-    <a src="/code-review.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Code Review</a>
-    <a src="/final-enhancements-review-summary.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Final Enhancements Review Summary</a>
-    <a src="/program_instructions.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Enhanced Program - Run Instructions</a>
-    <a src="/career-objective.md" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Career Objective: Machine Learning Architect</a>
-    <a src="/site-and-repo-links.md/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Site & Repository Links</a>
+    <a href="/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Home</a>
+    <a href="/intro" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Introduction/About Me</a>
+    <a href="/original-artifact-functionality" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Original Artifacts Functionality</a>
+    <a href="/enhancement-plan" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Enhancement Plan</a>
+    <a href="/software-engineering-and-design" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Software Engineering/Design</a>
+    <a href="/algorithms-and-data-structures" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Algorithms and Data Structures</a>
+    <a href="/databases" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Databases</a>
+    <a href="/code-review" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Code Review</a>
+    <a href="/final-enhancements-review-summary" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Final Enhancements Review Summary</a>
+    <a href="/program_instructions" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Enhanced Program - Run Instructions</a>
+    <a href="/career-objective" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Career Objective: Machine Learning Architect</a>
+    <a href="/site-and-repo-links" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Site & Repository Links</a>
 </div>
 
 ---
