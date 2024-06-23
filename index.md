@@ -15,11 +15,10 @@
         flex-direction: column;
         gap: 10px;
         background-color: rgba(255, 255, 255, 0.8);
-        padding: 20px;
+        padding: 40px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
         margin-left: 25px;
-        margin-right: 25px;
         position: sticky;
         top: 20px;
     }
