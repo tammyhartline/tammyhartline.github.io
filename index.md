@@ -2,19 +2,49 @@
 
 # Tammy Hartline's E-Portfolio
 
-<div style="display: flex; flex-wrap: wrap; justify-content: left; gap: 10px; margin-bottom: 20px;">
-    <a href="/" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Home</a>
-    <a href="/intro" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Introduction/About Me</a>
-    <a href="/original-artifact-functionality" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Original Artifacts Functionality</a>
-    <a href="/enhancement-plan" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Enhancement Plan</a>
-    <a href="/software-engineering-and-design" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Software Engineering/Design</a>
-    <a href="/algorithms-and-data-structures" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Algorithms and Data Structures</a>
-    <a href="/databases" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Databases</a>
-    <a href="/code-review" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Code Review</a>
-    <a href="/final-enhancements-review-summary" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Final Enhancements Review Summary</a>
-    <a href="/program_instructions" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Enhanced Program - Run Instructions</a>
-    <a href="/career-objective" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Career Objective: Machine Learning Architect</a>
-    <a href="/site-and-repo-links" style="background-color: #8B0000; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Site & Repository Links</a>
+<style>
+    .nav-menu {
+        position: fixed;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+    .nav-menu a {
+        background-color: #8B0000;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .nav-menu a:hover {
+        background-color: #660000;
+    }
+</style>
+
+<div class="nav-menu">
+    <a href="/">Home</a>
+    <a href="/intro">About Me</a>
+    <a href="/original-artifact-functionality">Original Artifacts</a>
+    <a href="/enhancement-plan">Enhancement Plan</a>
+    <a href="/software-engineering-and-design">Software Engineering</a>
+    <a href="/algorithms-and-data-structures">Algorithms & Data Structures</a>
+    <a href="/databases">Databases</a>
+    <a href="/code-review">Code Review</a>
+    <a href="/final-enhancements-review-summary">Enhancements Summary</a>
+    <a href="/program_instructions">Run Instructions</a>
+    <a href="/career-objective">Career Objective</a>
+    <a href="/site-and-repo-links">Site & Repo Links</a>
 </div>
 
 ---
