@@ -10,15 +10,15 @@
         padding-right: 15px;
     }
     .nav-menu {
-        width: 175px;
+        width: 225px;
         display: flex;
         flex-direction: column;
         gap: 10px;
         background-color: rgba(255, 255, 255, 0.8);
-        padding: 15px;
+        padding: 20px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        margin-left: 15px;
+        margin-left: 20px;
         position: sticky;
         top: 20px;
     }
