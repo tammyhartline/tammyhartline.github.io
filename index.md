@@ -4,10 +4,9 @@
 
 <style>
     .nav-menu {
-        position: fixed;
+        position: absolute;
         right: 20px;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 0;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -16,6 +15,9 @@
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
         z-index: 1000;
+    }
+    .nav-menu.fixed {
+        position: fixed;
     }
     .nav-menu a {
         background-color: #8B0000;
@@ -32,7 +34,7 @@
     }
 </style>
 
-<div class="nav-menu">
+<div class="nav-menu" id="navMenu">
     <a href="/">Home</a>
     <a href="/intro">About Me</a>
     <a href="/original-artifact-functionality">Original Artifacts</a>
@@ -46,6 +48,25 @@
     <a href="/career-objective">Career Objective</a>
     <a href="/site-and-repo-links">Site & Repo Links</a>
 </div>
+
+<script>
+    window.addEventListener('scroll', function() {
+        var menu = document.getElementById('navMenu');
+        var linkedInLogo = document.querySelector('a[href="https://www.linkedin.com/in/tammy-hartline-91981266/"]');
+        var linkedInLogoPosition = linkedInLogo.getBoundingClientRect().top + window.pageYOffset;
+        
+        if (window.pageYOffset > 0 && window.pageYOffset < linkedInLogoPosition - menu.offsetHeight) {
+            menu.classList.add('fixed');
+            menu.style.top = '0';
+        } else if (window.pageYOffset >= linkedInLogoPosition - menu.offsetHeight) {
+            menu.classList.remove('fixed');
+            menu.style.top = (linkedInLogoPosition - menu.offsetHeight) + 'px';
+        } else {
+            menu.classList.remove('fixed');
+            menu.style.top = '0';
+        }
+    });
+</script>
 
 ---
 
