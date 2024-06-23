@@ -63,6 +63,7 @@
         <a href="/site-and-repo-links">Site & Repo Links</a>
     </div>
 </div>
+
 # Code Review
 
 This code review video explains in further detail, the original program's functionality, any design flaws, any functionality issues or bugs, and  some of the enhancements proposed to further demonstrate my proficiency in the computer science specialties of software engineering and design, algorithms and data structures, and databases.
@@ -70,3 +71,13 @@ This code review video explains in further detail, the original program's functi
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rgzI87EXP9A?si=qkb5zXpduAHS_SZe" title="Original Artifacts Code Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+# Final Program
+
+This video demonstrates the functionality of the program after completing all enhancements.
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HwQ6CkFeXjE?si=EgtEt9DziwCKYm1e" title="Original Artifacts Code Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
