@@ -7,10 +7,10 @@
     }
     .main-content {
         flex: 1;
-        padding-right: 20px;
+        padding-right: 15px;
     }
     .nav-menu {
-        width: 200px;
+        width: 175px;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -18,7 +18,7 @@
         padding: 15px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        margin-left: 20px;
+        margin-left: 15px;
         position: sticky;
         top: 20px;
     }
@@ -41,9 +41,9 @@
     <div class="main-content">
         <h1>Tammy Hartline's E-Portfolio</h1>
 
-        <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto;">
+        <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 350px; height: 350px; border-radius: 50%; margin: 0 auto;">
         <h3>Follow Me on LinkedIn!</h3>
-<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="50" height="50" alt="LinkedIn Logo"></a>
+<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
 
     </div>
 
