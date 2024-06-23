@@ -39,11 +39,11 @@
 
 <div class="content-wrapper">
     <div class="main-content">
-        <h1>Tammy Hartline's E-Portfolio</h1>
+        <h1 class="centered">Tammy Hartline's E-Portfolio</h1>
 
         <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 350px; height: 350px; border-radius: 50%; margin: 0 auto;">
-        <h3>Follow Me on LinkedIn!</h3>
-<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
+        <h3 class="centered">Follow Me on LinkedIn!</h3>
+<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img class="centered" src="linkedin.jpg" width="100" height="100" alt="LinkedIn Logo"></a>
 
     </div>
 
