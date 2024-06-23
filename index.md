@@ -3,10 +3,17 @@
 # Tammy Hartline's E-Portfolio
 
 <style>
+    .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .main-content {
+        flex: 1;
+        padding-right: 20px;
+    }
     .nav-menu {
-        position: absolute;
-        right: 20px;
-        top: 0;
+        width: 200px;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -14,10 +21,9 @@
         padding: 15px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        z-index: 1000;
-    }
-    .nav-menu.fixed {
-        position: fixed;
+        margin-left: 20px;
+        position: sticky;
+        top: 20px;
     }
     .nav-menu a {
         background-color: #8B0000;
@@ -34,39 +40,29 @@
     }
 </style>
 
-<div class="nav-menu" id="navMenu">
-    <a href="/">Home</a>
-    <a href="/intro">About Me</a>
-    <a href="/original-artifact-functionality">Original Artifacts</a>
-    <a href="/enhancement-plan">Enhancement Plan</a>
-    <a href="/software-engineering-and-design">Software Engineering</a>
-    <a href="/algorithms-and-data-structures">Algorithms & Data Structures</a>
-    <a href="/databases">Databases</a>
-    <a href="/code-review">Code Review</a>
-    <a href="/final-enhancements-review-summary">Enhancements Summary</a>
-    <a href="/program_instructions">Run Instructions</a>
-    <a href="/career-objective">Career Objective</a>
-    <a href="/site-and-repo-links">Site & Repo Links</a>
-</div>
+<div class="content-wrapper">
+    <div class="main-content">
+        # Tammy Hartline's E-Portfolio
 
-<script>
-    window.addEventListener('scroll', function() {
-        var menu = document.getElementById('navMenu');
-        var linkedInLogo = document.querySelector('a[href="https://www.linkedin.com/in/tammy-hartline-91981266/"]');
-        var linkedInLogoPosition = linkedInLogo.getBoundingClientRect().top + window.pageYOffset;
-        
-        if (window.pageYOffset > 0 && window.pageYOffset < linkedInLogoPosition - menu.offsetHeight) {
-            menu.classList.add('fixed');
-            menu.style.top = '0';
-        } else if (window.pageYOffset >= linkedInLogoPosition - menu.offsetHeight) {
-            menu.classList.remove('fixed');
-            menu.style.top = (linkedInLogoPosition - menu.offsetHeight) + 'px';
-        } else {
-            menu.classList.remove('fixed');
-            menu.style.top = '0';
-        }
-    });
-</script>
+        <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto;">
+
+    </div>
+
+    <div class="nav-menu">
+        <a href="/">Home</a>
+        <a href="/intro">About Me</a>
+        <a href="/original-artifact-functionality">Original Artifacts</a>
+        <a href="/enhancement-plan">Enhancement Plan</a>
+        <a href="/software-engineering-and-design">Software Engineering</a>
+        <a href="/algorithms-and-data-structures">Algorithms & Data Structures</a>
+        <a href="/databases">Databases</a>
+        <a href="/code-review">Code Review</a>
+        <a href="/final-enhancements-review-summary">Enhancements Summary</a>
+        <a href="/program_instructions">Run Instructions</a>
+        <a href="/career-objective">Career Objective</a>
+        <a href="/site-and-repo-links">Site & Repo Links</a>
+    </div>
+</div>
 
 ---
 
