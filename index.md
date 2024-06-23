@@ -1,7 +1,4 @@
 <!-- index.md -->
-
-# Tammy Hartline's E-Portfolio
-
 <style>
     .content-wrapper {
         display: flex;
@@ -42,9 +39,11 @@
 
 <div class="content-wrapper">
     <div class="main-content">
-        # Tammy Hartline's E-Portfolio
+        <h1>Tammy Hartline's E-Portfolio</h1>
 
         <img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto;">
+        <h3>Follow Me on LinkedIn!</h3>
+<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="50" height="50" alt="LinkedIn Logo"></a>
 
     </div>
 
@@ -66,8 +65,6 @@
 
 ---
 
-<img src="images/me.jpg" alt="Profile Image" class="profile-image" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto;">
-
 #### Table of Contents
 
 - [Home](/index.md/)
@@ -82,9 +79,6 @@
 - [Enhanced Program - Run Instructions](/program_instructions.md/)
 - [Career Objective: Machine Learning Architect](/career-objective.md)
 - [Site & Repository Links](/site-and-repo-links.md/)
-
-###### Follow Me on LinkedIn!
-<a href="https://www.linkedin.com/in/tammy-hartline-91981266/"><img src="linkedin.jpg" width="50" height="50" alt="LinkedIn Logo"></a>
 
 # Home
 This site was built using Github Pages and Jekyll themes. The purpose of this page is to serve as an e-portfolio, that will demonstrate my competence in the following computer science specialties:
