@@ -196,7 +196,16 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 </div>
 
 4. __Leadership Recognition:__ Nominated to present the Spring 2024 commencement speech and of the 700+ student employees at SNHU, I was one of the 23 total nominated for the 2023 Student Employee of the Year after six short months of employment, demonstrating leadership and excellence in professional settings.
+<div style="width: 100%; margin-top: 20px; margin-bottom: 20px;">
+    <img src="student.jpg" alt="Student Employee of the Year Nomination" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
 5. __Honor Society Inductions:__ Inducted into prestigious honor societies, Alpha Sigma Lambda and National Society of Leadership and Success, for academic and leadership achievements.
+<div style="width: 100%; margin-top: 20px; margin-bottom: 20px;">
+    <img src="alpha.jpg" alt="Alpha Sigma Lambda Honor Society" style="width: 100%; max-width: 600px; height: auto; margin-bottom: 20px;">
+    <img src="national.jpg" alt="National Society of Leadership and Success" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
 6. __Mastery of Computer Science and Data Analysis Concepts:__ Mastered core computer science concepts and applied them in both academic coursework and real-world applications, showcasing a strong understanding of the subject matter.
 
 ## Areas for Improvement: 👩‍🏫
