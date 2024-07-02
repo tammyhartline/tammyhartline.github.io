@@ -75,8 +75,8 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 # Professional Performance Self-Evaluation:
 
 ## Accomplishments:  ✍(◔◡◔)
-1. __Academic Excellence:__ Maintained a stellar academic record with a 4.0 GPA average per course overall, & completed over 120 credits in just 22 months.
-2. __Recognition of Excellence:__ Consistently made the President's List every semester and the Honor Roll every term, showcasing dedication and excellence in academic pursuits.
+- __Academic Excellence:__ Maintained a stellar academic record with a 4.0 GPA average per course overall, & completed over 120 credits in just 22 months.
+- __Recognition of Excellence:__ Consistently made the President's List every semester and the Honor Roll every term, showcasing dedication and excellence in academic pursuits.
 
 <div style="display: flex;">
   <a href="https://meritpages.com/tammy.hartline">
@@ -189,24 +189,26 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
   <span> SNHU Honor Roll 22EW5</span>
 </div>
 
-3. __Prestigious Internship:__ Successfully completed a prestigious internship Hosted by Raytheon (RTX) Girls Who Code (GWC) Fall Leadership Academy, gaining valuable hands-on experience in software engineering.
+- __Prestigious Internship:__ Successfully completed a prestigious internship Hosted by Raytheon (RTX) Girls Who Code (GWC) Fall Leadership Academy, gaining valuable hands-on experience in software engineering.
 
 <div style="width: 100%; height: 500px; margin-top: 20px; margin-bottom: 20px;">
     <iframe src="internship.pdf" width="100%" height="100%" style="border: none;"></iframe>
 </div>
 
-4. __Leadership Recognition:__ Nominated to present the Spring 2024 commencement speech and of the 700+ student employees at SNHU, I was one of the 23 total nominated for the 2023 Student Employee of the Year after six short months of employment, demonstrating leadership and excellence in professional settings.
+- __Leadership Recognition:__ Nominated to present the Spring 2024 commencement speech and of the 700+ student employees at SNHU, I was one of the 23 total nominated for the 2023 Student Employee of the Year after six short months of employment, demonstrating leadership and excellence in professional settings.
+  
 <div style="width: 100%; margin-top: 20px; margin-bottom: 20px;">
     <img src="student.jpg" alt="Student Employee of the Year Nomination" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
-5. __Honor Society Inductions:__ Inducted into prestigious honor societies, Alpha Sigma Lambda and National Society of Leadership and Success, for academic and leadership achievements.
+- __Honor Society Inductions:__ Inducted into prestigious honor societies, Alpha Sigma Lambda and National Society of Leadership and Success, for academic and leadership achievements.
+  
 <div style="width: 100%; margin-top: 20px; margin-bottom: 20px;">
     <img src="alpha.jpg" alt="Alpha Sigma Lambda Honor Society" style="width: 100%; max-width: 600px; height: auto; margin-bottom: 20px;">
     <img src="national.jpg" alt="National Society of Leadership and Success" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
-6. __Mastery of Computer Science and Data Analysis Concepts:__ Mastered core computer science concepts and applied them in both academic coursework and real-world applications, showcasing a strong understanding of the subject matter.
+- __Mastery of Computer Science and Data Analysis Concepts:__ Mastered core computer science concepts and applied them in both academic coursework and real-world applications, showcasing a strong understanding of the subject matter.
 
 ## Areas for Improvement: 👩‍🏫
 1. __Communication Skills:__ Enhancing articulation of ideas and solutions when presenting in a professional setting to more effectively communicate thoughts and strategies.
