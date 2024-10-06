@@ -63,6 +63,7 @@
 </div>
 # Site & Repository Links
 
+- [My Resume](https://docs.google.com/document/d/e/2PACX-1vTwzSSsRsevOFvLYZywHfSeAGjKESc0DwL7dg9Gi3jkn7N_xV6ynxBIcIgtJIZhrXnXQOZt8pBGi-mB/pub)
 - [Click here to view and interact with the final LIVE version of the application!](https://tammyhartlinescapstone.onrender.com/)
 - [Enhanced Repository](https://github.com/tjhartline/capstone/)
 - [Original Repository](https://github.com/tjhartline/SNHU-CS340)
