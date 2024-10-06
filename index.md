@@ -208,6 +208,12 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
     <img src="national.jpg" alt="National Society of Leadership and Success" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
+- __Degree:__ Bachelor of Computer Science Major, Data Analysis Minor, Graduated Summa Cum Laude.
+<div style="width: 100%; margin-top: 20px; margin-bottom: 20px;">
+    <img src="degree.png" alt="Bachelor of Computer Science Major, Data Analytics Minor, Summa Cum Laude" 
+ style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
 - __Mastery of Computer Science and Data Analysis Concepts:__ Mastered core computer science concepts and applied them in both academic coursework and real-world applications, showcasing a strong understanding of the subject matter.
 
 ## Areas for Improvement: 👩‍🏫
@@ -247,5 +253,7 @@ As I continue to evolve my career, I am eager to embrace change, broaden my skil
 In conclusion, I am grateful for the experiences that have shaped me thus far and look forward to the journey ahead. With a proactive mindset, a passion for learning, and a commitment to excellence, I am confident in my ability to achieve my goals and make a difference in the world of technology.
 
 ---
+# My Resume - Last Updated October 2024
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vTwzSSsRsevOFvLYZywHfSeAGjKESc0DwL7dg9Gi3jkn7N_xV6ynxBIcIgtJIZhrXnXQOZt8pBGi-mB/pub?embedded=true"></iframe>
 
 © 2024 Tammy Hartline. All rights reserved.
