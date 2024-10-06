@@ -254,6 +254,6 @@ In conclusion, I am grateful for the experiences that have shaped me thus far an
 
 ---
 # My Resume - Last Updated October 2024
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vTwzSSsRsevOFvLYZywHfSeAGjKESc0DwL7dg9Gi3jkn7N_xV6ynxBIcIgtJIZhrXnXQOZt8pBGi-mB/pub?embedded=true"></iframe>
+<iframe style="margin-top: 20px; margin-bottom: 20px; width: 100%; height: 100%; border: none;" src="https://docs.google.com/document/d/e/2PACX-1vTwzSSsRsevOFvLYZywHfSeAGjKESc0DwL7dg9Gi3jkn7N_xV6ynxBIcIgtJIZhrXnXQOZt8pBGi-mB/pub?embedded=true"></iframe>
 
 © 2024 Tammy Hartline. All rights reserved.
