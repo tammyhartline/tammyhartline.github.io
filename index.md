@@ -210,7 +210,7 @@ This site was built using Github Pages and Jekyll themes. The purpose of this pa
 
 - __Degree:__ Bachelor of Computer Science Major, Data Analysis Minor, Graduated Summa Cum Laude.
 <div style="width: 100%; margin-top: 20px; margin-bottom: 20px;">
-    <img src="degree.png" alt="Bachelor of Computer Science Major, Data Analytics Minor, Summa Cum Laude" 
+    <img src="images/degree.png" alt="Bachelor of Computer Science Major, Data Analytics Minor, Summa Cum Laude" 
  style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
